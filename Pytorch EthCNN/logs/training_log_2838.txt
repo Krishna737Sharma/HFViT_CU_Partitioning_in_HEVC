@@ -1,0 +1,658 @@
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/somdyutiai/Krishna_24AI60R38/Eth_CNN_Pt_full/ETH_CNN.py", line 17, in <module>
+    import onnxruntime
+  File "/raid/somdyutiai/conda_envs/pt__env/lib/python3.10/site-packages/onnxruntime/__init__.py", line 23, in <module>
+    from onnxruntime.capi._pybind_state import ExecutionMode  # noqa: F401
+  File "/raid/somdyutiai/conda_envs/pt__env/lib/python3.10/site-packages/onnxruntime/capi/_pybind_state.py", line 32, in <module>
+    from .onnxruntime_pybind11_state import *  # noqa
+AttributeError: _ARRAY_API not found
+ImportError: numpy.core.multiarray failed to import
+
+The above exception was the direct cause of the following exception:
+
+SystemError: <built-in function __import__> returned a result with an exception set
+Loading checkpoint from checkpoint_100_200_1000.pth...
+Resumed training from epoch 920 with best loss 1.2729764817746398.
+Loading checkpoint for restoring lists from checkpoint_saved_500_epoch.pth...
+lists have been reloaded with length 95.
+Epoch [930/100000] Training Results:
+Loss: 1.2639
+Accuracy Level 1: 82.3295% Accuracy Level 2: 80.7814% Accuracy Level 3: 78.1577%
+Validation Loss: 1.2764
+Accuracy 64x64: 83.42%, 32x32: 80.79%, 16x16: 78.87%
+
+Epoch [940/100000] Training Results:
+Loss: 1.2649
+Accuracy Level 1: 82.2395% Accuracy Level 2: 80.7747% Accuracy Level 3: 78.1524%
+Validation Loss: 1.2766
+Accuracy 64x64: 84.05%, 32x32: 80.84%, 16x16: 78.83%
+
+Epoch [950/100000] Training Results:
+Loss: 1.2636
+Accuracy Level 1: 82.2081% Accuracy Level 2: 80.7737% Accuracy Level 3: 78.1414%
+Checkpoint saved for epoch 950 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2722
+Accuracy 64x64: 83.48%, 32x32: 80.80%, 16x16: 78.87%
+
+Checkpoint saved for epoch 950
+Epoch [960/100000] Training Results:
+Loss: 1.2638
+Accuracy Level 1: 82.2570% Accuracy Level 2: 80.8060% Accuracy Level 3: 78.1491%
+Validation Loss: 1.2773
+Accuracy 64x64: 82.93%, 32x32: 80.47%, 16x16: 78.77%
+
+Epoch [970/100000] Training Results:
+Loss: 1.2645
+Accuracy Level 1: 82.1458% Accuracy Level 2: 80.7713% Accuracy Level 3: 78.1537%
+Validation Loss: 1.2713
+Accuracy 64x64: 84.64%, 32x32: 80.99%, 16x16: 78.86%
+
+Checkpoint saved for epoch 970
+Epoch [980/100000] Training Results:
+Loss: 1.2628
+Accuracy Level 1: 82.2447% Accuracy Level 2: 80.8254% Accuracy Level 3: 78.1657%
+Validation Loss: 1.2745
+Accuracy 64x64: 83.75%, 32x32: 80.86%, 16x16: 78.73%
+
+Epoch [990/100000] Training Results:
+Loss: 1.2621
+Accuracy Level 1: 82.2024% Accuracy Level 2: 80.8018% Accuracy Level 3: 78.1949%
+Validation Loss: 1.2744
+Accuracy 64x64: 83.63%, 32x32: 80.62%, 16x16: 78.90%
+
+Epoch [1000/100000] Training Results:
+Loss: 1.2625
+Accuracy Level 1: 82.2846% Accuracy Level 2: 80.8298% Accuracy Level 3: 78.1737%
+Checkpoint saved for epoch 1000 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2740
+Accuracy 64x64: 84.50%, 32x32: 79.67%, 16x16: 78.11%
+
+Plots saved to 'training_plots' folder for epoch 1000
+Epoch [1010/100000] Training Results:
+Loss: 1.2632
+Accuracy Level 1: 82.2325% Accuracy Level 2: 80.7805% Accuracy Level 3: 78.1915%
+Validation Loss: 1.2776
+Accuracy 64x64: 83.10%, 32x32: 79.92%, 16x16: 78.25%
+
+Epoch [1020/100000] Training Results:
+Loss: 1.2625
+Accuracy Level 1: 82.3532% Accuracy Level 2: 80.8200% Accuracy Level 3: 78.1684%
+Validation Loss: 1.2741
+Accuracy 64x64: 83.88%, 32x32: 80.84%, 16x16: 78.91%
+
+Epoch [1030/100000] Training Results:
+Loss: 1.2626
+Accuracy Level 1: 82.1804% Accuracy Level 2: 80.7949% Accuracy Level 3: 78.1986%
+Validation Loss: 1.2901
+Accuracy 64x64: 82.02%, 32x32: 80.70%, 16x16: 79.12%
+
+Epoch [1040/100000] Training Results:
+Loss: 1.2611
+Accuracy Level 1: 82.2479% Accuracy Level 2: 80.8542% Accuracy Level 3: 78.1908%
+Validation Loss: 1.2712
+Accuracy 64x64: 83.35%, 32x32: 80.39%, 16x16: 78.16%
+
+Checkpoint saved for epoch 1040
+Epoch [1050/100000] Training Results:
+Loss: 1.2621
+Accuracy Level 1: 82.2433% Accuracy Level 2: 80.8252% Accuracy Level 3: 78.1752%
+Checkpoint saved for epoch 1050 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2773
+Accuracy 64x64: 84.18%, 32x32: 80.78%, 16x16: 78.71%
+
+Epoch [1060/100000] Training Results:
+Loss: 1.2620
+Accuracy Level 1: 82.3112% Accuracy Level 2: 80.8296% Accuracy Level 3: 78.1807%
+Validation Loss: 1.2743
+Accuracy 64x64: 82.56%, 32x32: 80.85%, 16x16: 78.64%
+
+Epoch [1070/100000] Training Results:
+Loss: 1.2617
+Accuracy Level 1: 82.1876% Accuracy Level 2: 80.8565% Accuracy Level 3: 78.1839%
+Validation Loss: 1.2791
+Accuracy 64x64: 83.97%, 32x32: 81.04%, 16x16: 78.94%
+
+Epoch [1080/100000] Training Results:
+Loss: 1.2617
+Accuracy Level 1: 82.2721% Accuracy Level 2: 80.8371% Accuracy Level 3: 78.1874%
+Validation Loss: 1.2788
+Accuracy 64x64: 84.20%, 32x32: 79.94%, 16x16: 78.51%
+
+Epoch [1090/100000] Training Results:
+Loss: 1.2613
+Accuracy Level 1: 82.2750% Accuracy Level 2: 80.8485% Accuracy Level 3: 78.2321%
+Validation Loss: 1.2745
+Accuracy 64x64: 84.86%, 32x32: 80.73%, 16x16: 78.92%
+
+Epoch [1100/100000] Training Results:
+Loss: 1.2615
+Accuracy Level 1: 82.2717% Accuracy Level 2: 80.8256% Accuracy Level 3: 78.1861%
+Checkpoint saved for epoch 1100 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2719
+Accuracy 64x64: 84.17%, 32x32: 80.71%, 16x16: 78.79%
+
+Plots saved to 'training_plots' folder for epoch 1100
+Epoch [1110/100000] Training Results:
+Loss: 1.2612
+Accuracy Level 1: 82.3057% Accuracy Level 2: 80.8633% Accuracy Level 3: 78.2123%
+Validation Loss: 1.2848
+Accuracy 64x64: 83.97%, 32x32: 81.08%, 16x16: 78.86%
+
+Epoch [1120/100000] Training Results:
+Loss: 1.2608
+Accuracy Level 1: 82.2059% Accuracy Level 2: 80.8617% Accuracy Level 3: 78.2039%
+Validation Loss: 1.2726
+Accuracy 64x64: 83.81%, 32x32: 80.18%, 16x16: 78.76%
+
+Epoch [1130/100000] Training Results:
+Loss: 1.2610
+Accuracy Level 1: 82.2575% Accuracy Level 2: 80.8661% Accuracy Level 3: 78.2106%
+Validation Loss: 1.2704
+Accuracy 64x64: 83.41%, 32x32: 80.70%, 16x16: 78.70%
+
+Checkpoint saved for epoch 1130
+Epoch [1140/100000] Training Results:
+Loss: 1.2608
+Accuracy Level 1: 82.2250% Accuracy Level 2: 80.8425% Accuracy Level 3: 78.2621%
+Validation Loss: 1.2728
+Accuracy 64x64: 84.50%, 32x32: 80.65%, 16x16: 78.69%
+
+Epoch [1150/100000] Training Results:
+Loss: 1.2614
+Accuracy Level 1: 82.1783% Accuracy Level 2: 80.8282% Accuracy Level 3: 78.2340%
+Checkpoint saved for epoch 1150 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2792
+Accuracy 64x64: 82.76%, 32x32: 80.83%, 16x16: 78.87%
+
+Epoch [1160/100000] Training Results:
+Loss: 1.2602
+Accuracy Level 1: 82.2573% Accuracy Level 2: 80.8904% Accuracy Level 3: 78.2127%
+Validation Loss: 1.2727
+Accuracy 64x64: 83.63%, 32x32: 80.42%, 16x16: 78.66%
+
+Epoch [1170/100000] Training Results:
+Loss: 1.2608
+Accuracy Level 1: 82.2885% Accuracy Level 2: 80.8461% Accuracy Level 3: 78.2080%
+Validation Loss: 1.2766
+Accuracy 64x64: 83.45%, 32x32: 80.88%, 16x16: 78.95%
+
+Epoch [1180/100000] Training Results:
+Loss: 1.2610
+Accuracy Level 1: 82.2780% Accuracy Level 2: 80.8567% Accuracy Level 3: 78.2190%
+Validation Loss: 1.2742
+Accuracy 64x64: 83.85%, 32x32: 80.72%, 16x16: 78.79%
+
+Epoch [1190/100000] Training Results:
+Loss: 1.2611
+Accuracy Level 1: 82.1884% Accuracy Level 2: 80.8747% Accuracy Level 3: 78.2669%
+Validation Loss: 1.2709
+Accuracy 64x64: 83.77%, 32x32: 80.74%, 16x16: 78.88%
+
+Epoch [1200/100000] Training Results:
+Loss: 1.2597
+Accuracy Level 1: 82.3042% Accuracy Level 2: 80.8662% Accuracy Level 3: 78.2096%
+Checkpoint saved for epoch 1200 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2768
+Accuracy 64x64: 82.76%, 32x32: 80.99%, 16x16: 79.17%
+
+Plots saved to 'training_plots' folder for epoch 1200
+Epoch [1210/100000] Training Results:
+Loss: 1.2596
+Accuracy Level 1: 82.1888% Accuracy Level 2: 80.8644% Accuracy Level 3: 78.2537%
+Validation Loss: 1.2744
+Accuracy 64x64: 84.24%, 32x32: 80.56%, 16x16: 78.72%
+
+Epoch [1220/100000] Training Results:
+Loss: 1.2600
+Accuracy Level 1: 82.2237% Accuracy Level 2: 80.8771% Accuracy Level 3: 78.2401%
+Validation Loss: 1.2754
+Accuracy 64x64: 84.89%, 32x32: 80.65%, 16x16: 78.52%
+
+Epoch [1230/100000] Training Results:
+Loss: 1.2605
+Accuracy Level 1: 82.2797% Accuracy Level 2: 80.8686% Accuracy Level 3: 78.2610%
+Validation Loss: 1.2721
+Accuracy 64x64: 84.50%, 32x32: 80.64%, 16x16: 78.64%
+
+Loading checkpoint from checkpoint_100_200_1000.pth...
+Resumed training from epoch 1130 with best loss 1.2703569516287012.
+Changing training datasets...
+Train indices changed: True
+Epoch [1240/100000] Training Results:
+Loss: 1.2608
+Accuracy Level 1: 82.2587% Accuracy Level 2: 80.8605% Accuracy Level 3: 78.2240%
+Validation Loss: 1.2808
+Accuracy 64x64: 82.78%, 32x32: 81.01%, 16x16: 79.00%
+
+Epoch [1250/100000] Training Results:
+Loss: 1.2618
+Accuracy Level 1: 82.1747% Accuracy Level 2: 80.8332% Accuracy Level 3: 78.1825%
+Checkpoint saved for epoch 1250 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2753
+Accuracy 64x64: 83.92%, 32x32: 80.52%, 16x16: 78.81%
+
+Epoch [1260/100000] Training Results:
+Loss: 1.2596
+Accuracy Level 1: 82.2809% Accuracy Level 2: 80.8617% Accuracy Level 3: 78.2156%
+Validation Loss: 1.2730
+Accuracy 64x64: 83.70%, 32x32: 80.44%, 16x16: 78.80%
+
+Epoch [1270/100000] Training Results:
+Loss: 1.2603
+Accuracy Level 1: 82.2587% Accuracy Level 2: 80.8933% Accuracy Level 3: 78.2294%
+Validation Loss: 1.2721
+Accuracy 64x64: 83.29%, 32x32: 80.73%, 16x16: 78.89%
+
+Epoch [1280/100000] Training Results:
+Loss: 1.2604
+Accuracy Level 1: 82.2563% Accuracy Level 2: 80.8702% Accuracy Level 3: 78.2067%
+Validation Loss: 1.2821
+Accuracy 64x64: 83.19%, 32x32: 80.64%, 16x16: 78.65%
+
+Epoch [1290/100000] Training Results:
+Loss: 1.2598
+Accuracy Level 1: 82.2440% Accuracy Level 2: 80.8653% Accuracy Level 3: 78.2609%
+Validation Loss: 1.2727
+Accuracy 64x64: 84.13%, 32x32: 81.06%, 16x16: 78.81%
+
+Epoch [1300/100000] Training Results:
+Loss: 1.2603
+Accuracy Level 1: 82.3343% Accuracy Level 2: 80.8787% Accuracy Level 3: 78.2308%
+Checkpoint saved for epoch 1300 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2766
+Accuracy 64x64: 82.96%, 32x32: 81.08%, 16x16: 78.94%
+
+Plots saved to 'training_plots' folder for epoch 1300
+Epoch [1310/100000] Training Results:
+Loss: 1.2602
+Accuracy Level 1: 82.2293% Accuracy Level 2: 80.8095% Accuracy Level 3: 78.2651%
+Validation Loss: 1.2725
+Accuracy 64x64: 83.68%, 32x32: 80.70%, 16x16: 79.05%
+
+Epoch [1320/100000] Training Results:
+Loss: 1.2595
+Accuracy Level 1: 82.2278% Accuracy Level 2: 80.8233% Accuracy Level 3: 78.2726%
+Validation Loss: 1.2767
+Accuracy 64x64: 82.59%, 32x32: 80.87%, 16x16: 78.86%
+
+Epoch [1330/100000] Training Results:
+Loss: 1.2595
+Accuracy Level 1: 82.2710% Accuracy Level 2: 80.8927% Accuracy Level 3: 78.2597%
+Validation Loss: 1.2799
+Accuracy 64x64: 84.65%, 32x32: 80.71%, 16x16: 78.99%
+
+Epoch [1340/100000] Training Results:
+Loss: 1.2596
+Accuracy Level 1: 82.1754% Accuracy Level 2: 80.8806% Accuracy Level 3: 78.2531%
+Validation Loss: 1.2717
+Accuracy 64x64: 83.41%, 32x32: 80.82%, 16x16: 78.93%
+
+Epoch [1350/100000] Training Results:
+Loss: 1.2592
+Accuracy Level 1: 82.2356% Accuracy Level 2: 80.9043% Accuracy Level 3: 78.2431%
+Checkpoint saved for epoch 1350 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2693
+Accuracy 64x64: 83.83%, 32x32: 80.92%, 16x16: 78.68%
+
+Checkpoint saved for epoch 1350
+Epoch [1360/100000] Training Results:
+Loss: 1.2597
+Accuracy Level 1: 82.2426% Accuracy Level 2: 80.8531% Accuracy Level 3: 78.2364%
+Validation Loss: 1.2721
+Accuracy 64x64: 83.39%, 32x32: 80.64%, 16x16: 78.77%
+
+Epoch [1370/100000] Training Results:
+Loss: 1.2596
+Accuracy Level 1: 82.2874% Accuracy Level 2: 80.8681% Accuracy Level 3: 78.2317%
+Validation Loss: 1.2730
+Accuracy 64x64: 84.44%, 32x32: 80.66%, 16x16: 78.45%
+
+Epoch [1380/100000] Training Results:
+Loss: 1.2596
+Accuracy Level 1: 82.2858% Accuracy Level 2: 80.8853% Accuracy Level 3: 78.2553%
+Validation Loss: 1.2747
+Accuracy 64x64: 84.21%, 32x32: 81.05%, 16x16: 78.96%
+
+Epoch [1390/100000] Training Results:
+Loss: 1.2595
+Accuracy Level 1: 82.2811% Accuracy Level 2: 80.8755% Accuracy Level 3: 78.2634%
+Validation Loss: 1.2727
+Accuracy 64x64: 83.49%, 32x32: 80.74%, 16x16: 78.75%
+
+Epoch [1400/100000] Training Results:
+Loss: 1.2593
+Accuracy Level 1: 82.3274% Accuracy Level 2: 80.8963% Accuracy Level 3: 78.2403%
+Checkpoint saved for epoch 1400 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2706
+Accuracy 64x64: 84.91%, 32x32: 80.47%, 16x16: 78.71%
+
+Plots saved to 'training_plots' folder for epoch 1400
+Epoch [1410/100000] Training Results:
+Loss: 1.2595
+Accuracy Level 1: 82.2628% Accuracy Level 2: 80.8890% Accuracy Level 3: 78.2679%
+Validation Loss: 1.2689
+Accuracy 64x64: 84.69%, 32x32: 80.77%, 16x16: 78.77%
+
+Checkpoint saved for epoch 1410
+Epoch [1420/100000] Training Results:
+Loss: 1.2594
+Accuracy Level 1: 82.2656% Accuracy Level 2: 80.8794% Accuracy Level 3: 78.2392%
+Validation Loss: 1.2761
+Accuracy 64x64: 83.80%, 32x32: 80.75%, 16x16: 78.66%
+
+Epoch [1430/100000] Training Results:
+Loss: 1.2581
+Accuracy Level 1: 82.2430% Accuracy Level 2: 80.9018% Accuracy Level 3: 78.2574%
+Validation Loss: 1.2684
+Accuracy 64x64: 84.67%, 32x32: 80.97%, 16x16: 79.02%
+
+Checkpoint saved for epoch 1430
+Epoch [1440/100000] Training Results:
+Loss: 1.2581
+Accuracy Level 1: 82.2734% Accuracy Level 2: 80.9093% Accuracy Level 3: 78.2665%
+Validation Loss: 1.2723
+Accuracy 64x64: 82.86%, 32x32: 80.91%, 16x16: 79.12%
+
+Epoch [1450/100000] Training Results:
+Loss: 1.2587
+Accuracy Level 1: 82.2405% Accuracy Level 2: 80.9016% Accuracy Level 3: 78.2532%
+Checkpoint saved for epoch 1450 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2733
+Accuracy 64x64: 83.97%, 32x32: 80.91%, 16x16: 78.73%
+
+Epoch [1460/100000] Training Results:
+Loss: 1.2585
+Accuracy Level 1: 82.2763% Accuracy Level 2: 80.9187% Accuracy Level 3: 78.2757%
+Validation Loss: 1.2703
+Accuracy 64x64: 83.49%, 32x32: 80.86%, 16x16: 78.93%
+
+Epoch [1470/100000] Training Results:
+Loss: 1.2595
+Accuracy Level 1: 82.3084% Accuracy Level 2: 80.8843% Accuracy Level 3: 78.2433%
+Validation Loss: 1.2714
+Accuracy 64x64: 82.19%, 32x32: 80.77%, 16x16: 78.93%
+
+Epoch [1480/100000] Training Results:
+Loss: 1.2580
+Accuracy Level 1: 82.1942% Accuracy Level 2: 80.9245% Accuracy Level 3: 78.2526%
+Validation Loss: 1.2750
+Accuracy 64x64: 83.78%, 32x32: 80.74%, 16x16: 78.51%
+
+Epoch [1490/100000] Training Results:
+Loss: 1.2579
+Accuracy Level 1: 82.2912% Accuracy Level 2: 80.9429% Accuracy Level 3: 78.2599%
+Validation Loss: 1.2749
+Accuracy 64x64: 84.27%, 32x32: 80.58%, 16x16: 78.41%
+
+Epoch [1500/100000] Training Results:
+Loss: 1.2577
+Accuracy Level 1: 82.3339% Accuracy Level 2: 80.9402% Accuracy Level 3: 78.2837%
+Checkpoint saved for epoch 1500 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2768
+Accuracy 64x64: 84.07%, 32x32: 80.95%, 16x16: 78.98%
+
+Plots saved to 'training_plots' folder for epoch 1500
+Epoch [1510/100000] Training Results:
+Loss: 1.2579
+Accuracy Level 1: 82.3059% Accuracy Level 2: 80.9374% Accuracy Level 3: 78.2771%
+Validation Loss: 1.2666
+Accuracy 64x64: 85.08%, 32x32: 80.93%, 16x16: 78.78%
+
+Checkpoint saved for epoch 1510
+Epoch [1520/100000] Training Results:
+Loss: 1.2578
+Accuracy Level 1: 82.3334% Accuracy Level 2: 80.9273% Accuracy Level 3: 78.2983%
+Validation Loss: 1.2713
+Accuracy 64x64: 83.12%, 32x32: 80.33%, 16x16: 78.45%
+
+Epoch [1530/100000] Training Results:
+Loss: 1.2587
+Accuracy Level 1: 82.2857% Accuracy Level 2: 80.9161% Accuracy Level 3: 78.2900%
+Validation Loss: 1.2778
+Accuracy 64x64: 82.99%, 32x32: 81.07%, 16x16: 79.11%
+
+Epoch [1540/100000] Training Results:
+Loss: 1.2575
+Accuracy Level 1: 82.2614% Accuracy Level 2: 80.9212% Accuracy Level 3: 78.2972%
+Validation Loss: 1.2746
+Accuracy 64x64: 83.54%, 32x32: 80.92%, 16x16: 79.11%
+
+Epoch [1550/100000] Training Results:
+Loss: 1.2576
+Accuracy Level 1: 82.3517% Accuracy Level 2: 80.9009% Accuracy Level 3: 78.2911%
+Checkpoint saved for epoch 1550 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2711
+Accuracy 64x64: 84.90%, 32x32: 80.75%, 16x16: 78.76%
+
+Epoch [1560/100000] Training Results:
+Loss: 1.2578
+Accuracy Level 1: 82.3093% Accuracy Level 2: 80.9260% Accuracy Level 3: 78.2708%
+Validation Loss: 1.2726
+Accuracy 64x64: 83.89%, 32x32: 80.59%, 16x16: 78.51%
+
+Epoch [1570/100000] Training Results:
+Loss: 1.2585
+Accuracy Level 1: 82.4134% Accuracy Level 2: 80.9361% Accuracy Level 3: 78.2617%
+Validation Loss: 1.2698
+Accuracy 64x64: 84.51%, 32x32: 80.93%, 16x16: 79.08%
+
+Epoch [1580/100000] Training Results:
+Loss: 1.2575
+Accuracy Level 1: 82.1533% Accuracy Level 2: 80.9424% Accuracy Level 3: 78.2921%
+Validation Loss: 1.2757
+Accuracy 64x64: 83.98%, 32x32: 80.66%, 16x16: 78.94%
+
+Epoch [1590/100000] Training Results:
+Loss: 1.2581
+Accuracy Level 1: 82.3032% Accuracy Level 2: 80.9054% Accuracy Level 3: 78.2902%
+Validation Loss: 1.2730
+Accuracy 64x64: 84.42%, 32x32: 80.73%, 16x16: 78.53%
+
+Epoch [1600/100000] Training Results:
+Loss: 1.2578
+Accuracy Level 1: 82.2328% Accuracy Level 2: 80.9433% Accuracy Level 3: 78.2892%
+Checkpoint saved for epoch 1600 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2723
+Accuracy 64x64: 83.28%, 32x32: 81.03%, 16x16: 78.86%
+
+Plots saved to 'training_plots' folder for epoch 1600
+Epoch [1610/100000] Training Results:
+Loss: 1.2582
+Accuracy Level 1: 82.3217% Accuracy Level 2: 80.8812% Accuracy Level 3: 78.2761%
+Validation Loss: 1.2699
+Accuracy 64x64: 84.21%, 32x32: 80.65%, 16x16: 78.99%
+
+Loading checkpoint from checkpoint_100_200_1000.pth...
+Resumed training from epoch 1510 with best loss 1.2665738918790606.
+Changing training datasets...
+Train indices changed: True
+Epoch [1620/100000] Training Results:
+Loss: 1.2580
+Accuracy Level 1: 82.2876% Accuracy Level 2: 80.9348% Accuracy Level 3: 78.3017%
+Validation Loss: 1.2706
+Accuracy 64x64: 84.49%, 32x32: 80.74%, 16x16: 78.97%
+
+Epoch [1630/100000] Training Results:
+Loss: 1.2577
+Accuracy Level 1: 82.3127% Accuracy Level 2: 80.8949% Accuracy Level 3: 78.2962%
+Validation Loss: 1.2739
+Accuracy 64x64: 83.90%, 32x32: 81.12%, 16x16: 78.93%
+
+Epoch [1640/100000] Training Results:
+Loss: 1.2592
+Accuracy Level 1: 82.2749% Accuracy Level 2: 80.9137% Accuracy Level 3: 78.2765%
+Validation Loss: 1.2759
+Accuracy 64x64: 84.47%, 32x32: 80.98%, 16x16: 78.75%
+
+Epoch [1650/100000] Training Results:
+Loss: 1.2585
+Accuracy Level 1: 82.1485% Accuracy Level 2: 80.8857% Accuracy Level 3: 78.2881%
+Checkpoint saved for epoch 1650 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2743
+Accuracy 64x64: 84.60%, 32x32: 80.71%, 16x16: 78.65%
+
+Epoch [1660/100000] Training Results:
+Loss: 1.2582
+Accuracy Level 1: 82.3155% Accuracy Level 2: 80.9068% Accuracy Level 3: 78.2790%
+Validation Loss: 1.2683
+Accuracy 64x64: 84.36%, 32x32: 80.91%, 16x16: 78.70%
+
+Checkpoint saved for epoch 1660
+Epoch [1670/100000] Training Results:
+Loss: 1.2584
+Accuracy Level 1: 82.3368% Accuracy Level 2: 80.8928% Accuracy Level 3: 78.3006%
+Validation Loss: 1.2737
+Accuracy 64x64: 83.46%, 32x32: 80.92%, 16x16: 79.03%
+
+Epoch [1680/100000] Training Results:
+Loss: 1.2577
+Accuracy Level 1: 82.2974% Accuracy Level 2: 80.9382% Accuracy Level 3: 78.2769%
+Validation Loss: 1.2684
+Accuracy 64x64: 83.09%, 32x32: 80.77%, 16x16: 78.77%
+
+Epoch [1690/100000] Training Results:
+Loss: 1.2585
+Accuracy Level 1: 82.2404% Accuracy Level 2: 80.9216% Accuracy Level 3: 78.3039%
+Validation Loss: 1.2753
+Accuracy 64x64: 83.95%, 32x32: 80.91%, 16x16: 79.02%
+
+Epoch [1700/100000] Training Results:
+Loss: 1.2585
+Accuracy Level 1: 82.2450% Accuracy Level 2: 80.9134% Accuracy Level 3: 78.2880%
+Checkpoint saved for epoch 1700 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2704
+Accuracy 64x64: 83.31%, 32x32: 80.76%, 16x16: 78.92%
+
+Plots saved to 'training_plots' folder for epoch 1700
+Epoch [1710/100000] Training Results:
+Loss: 1.2577
+Accuracy Level 1: 82.3299% Accuracy Level 2: 80.9479% Accuracy Level 3: 78.2718%
+Validation Loss: 1.2808
+Accuracy 64x64: 84.30%, 32x32: 80.31%, 16x16: 78.66%
+
+Epoch [1720/100000] Training Results:
+Loss: 1.2580
+Accuracy Level 1: 82.2532% Accuracy Level 2: 80.8878% Accuracy Level 3: 78.2970%
+Validation Loss: 1.2710
+Accuracy 64x64: 83.53%, 32x32: 80.73%, 16x16: 78.90%
+
+Epoch [1730/100000] Training Results:
+Loss: 1.2574
+Accuracy Level 1: 82.3396% Accuracy Level 2: 80.9350% Accuracy Level 3: 78.2884%
+Validation Loss: 1.2738
+Accuracy 64x64: 82.97%, 32x32: 80.98%, 16x16: 78.92%
+
+Epoch [1740/100000] Training Results:
+Loss: 1.2581
+Accuracy Level 1: 82.2005% Accuracy Level 2: 80.9157% Accuracy Level 3: 78.2923%
+Validation Loss: 1.2737
+Accuracy 64x64: 82.90%, 32x32: 80.79%, 16x16: 78.79%
+
+Epoch [1750/100000] Training Results:
+Loss: 1.2574
+Accuracy Level 1: 82.2857% Accuracy Level 2: 80.9439% Accuracy Level 3: 78.2928%
+Checkpoint saved for epoch 1750 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2755
+Accuracy 64x64: 82.28%, 32x32: 81.03%, 16x16: 79.04%
+
+Epoch [1760/100000] Training Results:
+Loss: 1.2573
+Accuracy Level 1: 82.3607% Accuracy Level 2: 80.9318% Accuracy Level 3: 78.2685%
+Validation Loss: 1.2707
+Accuracy 64x64: 84.62%, 32x32: 80.88%, 16x16: 78.89%
+
+Loading checkpoint from checkpoint_100_200_1000.pth...
+Resumed training from epoch 1660 with best loss 1.2683147581335463.
+Changing training datasets...
+Train indices changed: True
+Changing validation datasets...
+Validation indices changed: True
+Epoch [1770/100000] Training Results:
+Loss: 1.2579
+Accuracy Level 1: 82.2655% Accuracy Level 2: 80.9033% Accuracy Level 3: 78.3060%
+Validation Loss: 1.2729
+Accuracy 64x64: 83.07%, 32x32: 80.99%, 16x16: 79.25%
+
+Epoch [1780/100000] Training Results:
+Loss: 1.2583
+Accuracy Level 1: 82.2378% Accuracy Level 2: 80.8906% Accuracy Level 3: 78.3008%
+Validation Loss: 1.2715
+Accuracy 64x64: 84.69%, 32x32: 80.76%, 16x16: 78.82%
+
+Epoch [1790/100000] Training Results:
+Loss: 1.2580
+Accuracy Level 1: 82.2526% Accuracy Level 2: 80.9379% Accuracy Level 3: 78.3142%
+Validation Loss: 1.2828
+Accuracy 64x64: 83.03%, 32x32: 81.25%, 16x16: 79.08%
+
+Epoch [1800/100000] Training Results:
+Loss: 1.2578
+Accuracy Level 1: 82.2741% Accuracy Level 2: 80.9260% Accuracy Level 3: 78.2928%
+Checkpoint saved for epoch 1800 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2753
+Accuracy 64x64: 82.84%, 32x32: 80.64%, 16x16: 78.64%
+
+Plots saved to 'training_plots' folder for epoch 1800
+Epoch [1810/100000] Training Results:
+Loss: 1.2579
+Accuracy Level 1: 82.3293% Accuracy Level 2: 80.8964% Accuracy Level 3: 78.2780%
+Validation Loss: 1.2704
+Accuracy 64x64: 84.19%, 32x32: 80.84%, 16x16: 78.95%
+
+Epoch [1820/100000] Training Results:
+Loss: 1.2573
+Accuracy Level 1: 82.3882% Accuracy Level 2: 80.8928% Accuracy Level 3: 78.3105%
+Validation Loss: 1.2723
+Accuracy 64x64: 83.91%, 32x32: 80.29%, 16x16: 78.57%
+
+Epoch [1830/100000] Training Results:
+Loss: 1.2578
+Accuracy Level 1: 82.2996% Accuracy Level 2: 80.9146% Accuracy Level 3: 78.2751%
+Validation Loss: 1.2779
+Accuracy 64x64: 83.92%, 32x32: 80.39%, 16x16: 78.86%
+
+Epoch [1840/100000] Training Results:
+Loss: 1.2579
+Accuracy Level 1: 82.3017% Accuracy Level 2: 80.9534% Accuracy Level 3: 78.2839%
+Validation Loss: 1.2759
+Accuracy 64x64: 83.79%, 32x32: 81.10%, 16x16: 79.04%
+
+Epoch [1850/100000] Training Results:
+Loss: 1.2576
+Accuracy Level 1: 82.2763% Accuracy Level 2: 80.9365% Accuracy Level 3: 78.2536%
+Checkpoint saved for epoch 1850 with name checkpoint_saved_500_epoch.pth
+Validation Loss: 1.2744
+Accuracy 64x64: 84.37%, 32x32: 80.18%, 16x16: 78.30%
+
+Epoch [1860/100000] Training Results:
+Loss: 1.2575
+Accuracy Level 1: 82.3158% Accuracy Level 2: 80.9376% Accuracy Level 3: 78.3254%
+Validation Loss: 1.2696
+Accuracy 64x64: 83.64%, 32x32: 80.55%, 16x16: 78.63%
+
+Epoch [1870/100000] Training Results:
+Loss: 1.2582
+Accuracy Level 1: 82.2310% Accuracy Level 2: 80.9187% Accuracy Level 3: 78.2900%
+Validation Loss: 1.2742
+Accuracy 64x64: 84.91%, 32x32: 80.28%, 16x16: 78.81%
+
+Epoch [1880/100000] Training Results:
+Loss: 1.2562
+Accuracy Level 1: 82.3533% Accuracy Level 2: 80.9323% Accuracy Level 3: 78.3027%
+Validation Loss: 1.2703
+Accuracy 64x64: 84.03%, 32x32: 80.76%, 16x16: 78.64%
+
+Epoch [1890/100000] Training Results:
+Loss: 1.2580
+Accuracy Level 1: 82.2405% Accuracy Level 2: 80.9303% Accuracy Level 3: 78.2965%
+Validation Loss: 1.2735
+Accuracy 64x64: 83.69%, 32x32: 81.09%, 16x16: 78.76%
+
