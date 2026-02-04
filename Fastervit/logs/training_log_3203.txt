@@ -1,0 +1,637 @@
+Using device: cuda
+============================================================
+DEBUG MODE ENABLED
+============================================================
+IMAGE_SIZE: 64
+NUM_CHANNELS: 1
+NUM_SAMPLE_LENGTH: 4992
+BATCH_SIZE: 64
+============================================================
+Initializing StreamingDataset: /raid/somdyutiai/Krishna_24AI60R38/PycharmProjects/HEVC_Intra_Models-ETH-CNN_Pt/Data/AI_Train_1668975.dat_shuffled
+Max samples: 1668975
+Initializing StreamingDataset: /raid/somdyutiai/Krishna_24AI60R38/PycharmProjects/HEVC_Intra_Models-ETH-CNN_Pt/Data/AI_Valid_98175.dat_shuffled
+Max samples: 98175
+Total Parameters: 1,658,280
+Trainable Parameters: 1,658,280
+Loading checkpoint from best_fastervit_hevc_balanced.pth...
+Resumed training from epoch 248 with best loss 1.1618.
+Loading history from history_fastervit.pth...
+Syncing history lengths to match start epoch: 248
+History reloaded and synced. Train len: 248, Val len: 124
+
+============================================================
+STARTING TRAINING
+============================================================
+Epoch 249/10000 [245.9s] | Training Loss: 1.1694 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.32% | L2: 81.57% | L3: 79.22%
+Epoch 250/10000 [247.0s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.30% | L2: 81.61% | L3: 79.25%
+    >>> Checkpoint saved at epoch 250
+    >>> Plots saved to 'training_plots/' for epoch 250
+  Validation Loss: 1.1682 | Accuracy: 82.15% | L1: 86.12% | L2: 81.10% | L3: 79.22%
+Epoch 251/10000 [249.6s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.30% | L2: 81.60% | L3: 79.27%
+Epoch 252/10000 [247.9s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.33% | L2: 81.56% | L3: 79.25%
+  Validation Loss: 1.1688 | Accuracy: 82.19% | L1: 86.18% | L2: 81.31% | L3: 79.07%
+Epoch 253/10000 [237.4s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.59% | L3: 79.26%
+Epoch 254/10000 [247.9s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.31% | L2: 81.56% | L3: 79.26%
+  Validation Loss: 1.1762 | Accuracy: 82.05% | L1: 86.16% | L2: 80.89% | L3: 79.10%
+Epoch 255/10000 [247.3s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.34% | L2: 81.58% | L3: 79.23%
+Epoch 256/10000 [248.4s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.59% | L3: 79.27%
+  Validation Loss: 1.1700 | Accuracy: 82.19% | L1: 86.09% | L2: 81.14% | L3: 79.33%
+Epoch 257/10000 [248.2s] | Training Loss: 1.1690 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.30% | L2: 81.59% | L3: 79.22%
+Epoch 258/10000 [247.6s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.34% | L2: 81.58% | L3: 79.24%
+  Validation Loss: 1.1647 | Accuracy: 82.25% | L1: 86.26% | L2: 81.17% | L3: 79.31%
+Epoch 259/10000 [248.8s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.57% | L3: 79.27%
+Epoch 260/10000 [247.7s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.57% | L3: 79.27%
+  Validation Loss: 1.1722 | Accuracy: 82.15% | L1: 85.98% | L2: 81.26% | L3: 79.21%
+Epoch 261/10000 [248.1s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.38% | L2: 81.59% | L3: 79.28%
+Epoch 262/10000 [245.7s] | Training Loss: 1.1684 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.59% | L3: 79.24%
+  Validation Loss: 1.1688 | Accuracy: 82.19% | L1: 86.16% | L2: 81.16% | L3: 79.26%
+Epoch 263/10000 [238.2s] | Training Loss: 1.1690 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.58% | L3: 79.26%
+Epoch 264/10000 [238.8s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.59% | L3: 79.26%
+  Validation Loss: 1.1745 | Accuracy: 82.02% | L1: 85.91% | L2: 81.00% | L3: 79.15%
+Epoch 265/10000 [239.5s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.59% | L3: 79.28%
+Epoch 266/10000 [238.8s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.59% | L3: 79.26%
+  Validation Loss: 1.1769 | Accuracy: 82.12% | L1: 86.15% | L2: 80.97% | L3: 79.23%
+Epoch 267/10000 [231.6s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.30% | L2: 81.59% | L3: 79.25%
+Epoch 268/10000 [239.3s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.58% | L3: 79.28%
+  Validation Loss: 1.1721 | Accuracy: 82.11% | L1: 86.14% | L2: 81.08% | L3: 79.12%
+Epoch 269/10000 [237.8s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.60% | L3: 79.28%
+Epoch 270/10000 [238.6s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.30% | L2: 81.56% | L3: 79.26%
+  Validation Loss: 1.1696 | Accuracy: 82.18% | L1: 86.33% | L2: 81.07% | L3: 79.13%
+Epoch 271/10000 [239.2s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.57% | L3: 79.28%
+Epoch 272/10000 [238.1s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.57% | L3: 79.29%
+  Validation Loss: 1.1745 | Accuracy: 82.18% | L1: 86.13% | L2: 81.14% | L3: 79.28%
+Epoch 273/10000 [239.5s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.30% | L2: 81.59% | L3: 79.28%
+Epoch 274/10000 [238.5s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.57% | L3: 79.26%
+  Validation Loss: 1.1770 | Accuracy: 81.94% | L1: 85.41% | L2: 81.08% | L3: 79.33%
+Epoch 275/10000 [238.3s] | Training Loss: 1.1676 | LR: 0.000100 | Accuracy: 82.09% | L1: 85.38% | L2: 81.59% | L3: 79.28%
+Epoch 276/10000 [239.4s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.36% | L2: 81.58% | L3: 79.26%
+  Validation Loss: 1.1884 | Accuracy: 81.96% | L1: 86.12% | L2: 80.67% | L3: 79.07%
+Epoch 277/10000 [239.1s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.30% | L2: 81.60% | L3: 79.27%
+Epoch 278/10000 [238.2s] | Training Loss: 1.1679 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.33% | L2: 81.59% | L3: 79.29%
+  Validation Loss: 1.1670 | Accuracy: 82.17% | L1: 86.06% | L2: 81.17% | L3: 79.29%
+Epoch 279/10000 [239.5s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.29% | L2: 81.59% | L3: 79.28%
+Epoch 280/10000 [238.7s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.38% | L2: 81.59% | L3: 79.25%
+  Validation Loss: 1.1733 | Accuracy: 81.91% | L1: 85.33% | L2: 81.20% | L3: 79.20%
+Epoch 281/10000 [239.3s] | Training Loss: 1.1675 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.40% | L2: 81.55% | L3: 79.29%
+Epoch 282/10000 [231.3s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.33% | L2: 81.61% | L3: 79.26%
+  Validation Loss: 1.1697 | Accuracy: 82.17% | L1: 86.11% | L2: 81.06% | L3: 79.35%
+Epoch 283/10000 [239.2s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.29% | L2: 81.59% | L3: 79.30%
+Epoch 284/10000 [239.1s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.58% | L3: 79.28%
+  Validation Loss: 1.1670 | Accuracy: 82.20% | L1: 86.12% | L2: 81.34% | L3: 79.15%
+Epoch 285/10000 [238.8s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.58% | L3: 79.28%
+Epoch 286/10000 [238.3s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.58% | L3: 79.29%
+  Validation Loss: 1.1726 | Accuracy: 82.11% | L1: 85.99% | L2: 81.03% | L3: 79.31%
+Epoch 287/10000 [239.1s] | Training Loss: 1.1684 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.30% | L2: 81.60% | L3: 79.29%
+Epoch 288/10000 [239.3s] | Training Loss: 1.1675 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.59% | L3: 79.28%
+  Validation Loss: 1.1717 | Accuracy: 82.12% | L1: 86.05% | L2: 80.99% | L3: 79.31%
+Patience reached (20). Reloading best model from best_fastervit_hevc_balanced.pth...
+Refreshing Training Data...
+Initializing StreamingDataset: /raid/somdyutiai/Krishna_24AI60R38/PycharmProjects/HEVC_Intra_Models-ETH-CNN_Pt/Data/AI_Train_1668975.dat_shuffled
+Max samples: 1668975
+Epoch 289/10000 [239.8s] | Training Loss: 1.1696 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.32% | L2: 81.57% | L3: 79.21%
+Epoch 290/10000 [239.8s] | Training Loss: 1.1695 | LR: 0.000100 | Accuracy: 82.02% | L1: 85.28% | L2: 81.57% | L3: 79.22%
+  Validation Loss: 1.1747 | Accuracy: 82.12% | L1: 86.17% | L2: 81.11% | L3: 79.08%
+Epoch 291/10000 [240.6s] | Training Loss: 1.1695 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.32% | L2: 81.58% | L3: 79.22%
+Epoch 292/10000 [239.7s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.36% | L2: 81.56% | L3: 79.25%
+  Validation Loss: 1.1736 | Accuracy: 82.04% | L1: 85.84% | L2: 81.11% | L3: 79.17%
+Epoch 293/10000 [240.3s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.31% | L2: 81.57% | L3: 79.24%
+Epoch 294/10000 [239.6s] | Training Loss: 1.1691 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.35% | L2: 81.57% | L3: 79.23%
+  Validation Loss: 1.1665 | Accuracy: 82.23% | L1: 86.27% | L2: 81.18% | L3: 79.25%
+Epoch 295/10000 [239.8s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.29% | L2: 81.60% | L3: 79.26%
+Epoch 296/10000 [236.3s] | Training Loss: 1.1690 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.35% | L2: 81.53% | L3: 79.26%
+  Validation Loss: 1.1674 | Accuracy: 82.21% | L1: 86.04% | L2: 81.36% | L3: 79.22%
+Epoch 297/10000 [237.3s] | Training Loss: 1.1691 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.31% | L2: 81.56% | L3: 79.25%
+Epoch 298/10000 [239.4s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.35% | L2: 81.57% | L3: 79.23%
+  Validation Loss: 1.1733 | Accuracy: 82.11% | L1: 85.98% | L2: 81.18% | L3: 79.18%
+Epoch 299/10000 [240.0s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.34% | L2: 81.58% | L3: 79.23%
+Epoch 300/10000 [238.8s] | Training Loss: 1.1694 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.32% | L2: 81.54% | L3: 79.24%
+    >>> Checkpoint saved at epoch 300
+    >>> Plots saved to 'training_plots/' for epoch 300
+  Validation Loss: 1.1693 | Accuracy: 82.13% | L1: 86.14% | L2: 81.04% | L3: 79.22%
+Epoch 301/10000 [238.4s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.34% | L2: 81.57% | L3: 79.24%
+Epoch 302/10000 [238.7s] | Training Loss: 1.1684 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.35% | L2: 81.58% | L3: 79.25%
+  Validation Loss: 1.1689 | Accuracy: 82.16% | L1: 86.17% | L2: 81.06% | L3: 79.25%
+Epoch 303/10000 [237.9s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.58% | L3: 79.28%
+Epoch 304/10000 [239.5s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.38% | L2: 81.56% | L3: 79.28%
+  Validation Loss: 1.1782 | Accuracy: 82.05% | L1: 85.96% | L2: 81.10% | L3: 79.10%
+Epoch 305/10000 [238.0s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.30% | L2: 81.57% | L3: 79.24%
+Epoch 306/10000 [238.1s] | Training Loss: 1.1694 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.30% | L2: 81.59% | L3: 79.24%
+  Validation Loss: 1.1699 | Accuracy: 82.12% | L1: 86.06% | L2: 81.05% | L3: 79.24%
+Epoch 307/10000 [238.0s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.57% | L3: 79.26%
+Epoch 308/10000 [237.8s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.59% | L3: 79.26%
+  Validation Loss: 1.1718 | Accuracy: 82.15% | L1: 85.97% | L2: 81.24% | L3: 79.23%
+Epoch 309/10000 [238.3s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.60% | L3: 79.26%
+Epoch 310/10000 [238.8s] | Training Loss: 1.1675 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.33% | L2: 81.60% | L3: 79.28%
+  Validation Loss: 1.1679 | Accuracy: 82.19% | L1: 86.16% | L2: 81.07% | L3: 79.36%
+Epoch 311/10000 [230.8s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.30% | L2: 81.57% | L3: 79.32%
+Epoch 312/10000 [237.5s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.29% | L2: 81.57% | L3: 79.28%
+  Validation Loss: 1.1787 | Accuracy: 82.01% | L1: 86.19% | L2: 80.88% | L3: 78.97%
+Epoch 313/10000 [237.9s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.30% | L2: 81.57% | L3: 79.27%
+Epoch 314/10000 [238.6s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.60% | L3: 79.27%
+  Validation Loss: 1.1707 | Accuracy: 82.07% | L1: 85.81% | L2: 81.14% | L3: 79.26%
+Epoch 315/10000 [239.0s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.58% | L3: 79.26%
+Epoch 316/10000 [237.9s] | Training Loss: 1.1684 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.58% | L3: 79.27%
+  Validation Loss: 1.1665 | Accuracy: 82.24% | L1: 86.26% | L2: 81.31% | L3: 79.15%
+Epoch 317/10000 [237.4s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.31% | L2: 81.60% | L3: 79.30%
+Epoch 318/10000 [238.1s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.28% | L2: 81.59% | L3: 79.28%
+  Validation Loss: 1.1693 | Accuracy: 82.18% | L1: 86.06% | L2: 81.22% | L3: 79.25%
+Epoch 319/10000 [237.7s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.35% | L2: 81.56% | L3: 79.27%
+Epoch 320/10000 [238.8s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.35% | L2: 81.56% | L3: 79.28%
+  Validation Loss: 1.1748 | Accuracy: 82.12% | L1: 86.29% | L2: 80.84% | L3: 79.22%
+Epoch 321/10000 [238.2s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.56% | L3: 79.30%
+Epoch 322/10000 [238.2s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.35% | L2: 81.56% | L3: 79.25%
+  Validation Loss: 1.1693 | Accuracy: 82.12% | L1: 86.04% | L2: 81.09% | L3: 79.24%
+Epoch 323/10000 [239.3s] | Training Loss: 1.1679 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.32% | L2: 81.60% | L3: 79.28%
+Epoch 324/10000 [238.8s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.58% | L3: 79.26%
+  Validation Loss: 1.1904 | Accuracy: 81.68% | L1: 85.31% | L2: 80.67% | L3: 79.06%
+Epoch 325/10000 [238.9s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.58% | L3: 79.27%
+Epoch 326/10000 [231.4s] | Training Loss: 1.1677 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.36% | L2: 81.57% | L3: 79.28%
+  Validation Loss: 1.1652 | Accuracy: 82.04% | L1: 85.53% | L2: 81.25% | L3: 79.34%
+Epoch 327/10000 [238.3s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.30% | L2: 81.59% | L3: 79.29%
+Epoch 328/10000 [238.4s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.57% | L3: 79.28%
+  Validation Loss: 1.1644 | Accuracy: 82.27% | L1: 86.07% | L2: 81.37% | L3: 79.38%
+Patience reached (20). Reloading best model from best_fastervit_hevc_balanced.pth...
+Refreshing Training Data...
+Initializing StreamingDataset: /raid/somdyutiai/Krishna_24AI60R38/PycharmProjects/HEVC_Intra_Models-ETH-CNN_Pt/Data/AI_Train_1668975.dat_shuffled
+Max samples: 1668975
+Epoch 329/10000 [241.3s] | Training Loss: 1.1693 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.34% | L2: 81.58% | L3: 79.24%
+Epoch 330/10000 [241.7s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.35% | L2: 81.56% | L3: 79.24%
+  Validation Loss: 1.1766 | Accuracy: 81.88% | L1: 85.55% | L2: 80.95% | L3: 79.13%
+Epoch 331/10000 [240.4s] | Training Loss: 1.1690 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.33% | L2: 81.56% | L3: 79.25%
+Epoch 332/10000 [239.9s] | Training Loss: 1.1691 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.58% | L3: 79.24%
+  Validation Loss: 1.1716 | Accuracy: 82.07% | L1: 85.70% | L2: 81.19% | L3: 79.33%
+Epoch 333/10000 [240.8s] | Training Loss: 1.1691 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.31% | L2: 81.56% | L3: 79.24%
+Epoch 334/10000 [239.5s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.34% | L2: 81.58% | L3: 79.22%
+  Validation Loss: 1.1706 | Accuracy: 82.15% | L1: 86.06% | L2: 81.11% | L3: 79.30%
+Epoch 335/10000 [239.8s] | Training Loss: 1.1697 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.30% | L2: 81.56% | L3: 79.22%
+Epoch 336/10000 [239.4s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.35% | L2: 81.59% | L3: 79.24%
+  Validation Loss: 1.1766 | Accuracy: 82.06% | L1: 85.72% | L2: 81.23% | L3: 79.23%
+Epoch 337/10000 [239.9s] | Training Loss: 1.1694 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.28% | L2: 81.57% | L3: 79.25%
+Epoch 338/10000 [239.7s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.59% | L3: 79.27%
+  Validation Loss: 1.1659 | Accuracy: 82.22% | L1: 86.15% | L2: 81.17% | L3: 79.35%
+Epoch 339/10000 [239.6s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.59% | L3: 79.26%
+Epoch 340/10000 [231.2s] | Training Loss: 1.1703 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.31% | L2: 81.54% | L3: 79.24%
+  Validation Loss: 1.1724 | Accuracy: 82.07% | L1: 86.09% | L2: 81.17% | L3: 78.97%
+Epoch 341/10000 [240.2s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.56% | L3: 79.26%
+Epoch 342/10000 [239.8s] | Training Loss: 1.1691 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.30% | L2: 81.58% | L3: 79.26%
+  Validation Loss: 1.1772 | Accuracy: 82.02% | L1: 86.07% | L2: 80.92% | L3: 79.06%
+Epoch 343/10000 [240.2s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.32% | L2: 81.58% | L3: 79.22%
+Epoch 344/10000 [239.9s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.29% | L2: 81.54% | L3: 79.26%
+  Validation Loss: 1.1748 | Accuracy: 82.06% | L1: 86.07% | L2: 80.99% | L3: 79.12%
+Epoch 345/10000 [239.0s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.34% | L2: 81.57% | L3: 79.25%
+Epoch 346/10000 [239.4s] | Training Loss: 1.1674 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.34% | L2: 81.60% | L3: 79.29%
+  Validation Loss: 1.1670 | Accuracy: 82.25% | L1: 86.25% | L2: 81.31% | L3: 79.19%
+Epoch 347/10000 [240.9s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.37% | L2: 81.63% | L3: 79.22%
+Epoch 348/10000 [239.5s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.57% | L3: 79.28%
+  Validation Loss: 1.1703 | Accuracy: 82.20% | L1: 86.14% | L2: 81.17% | L3: 79.28%
+Epoch 349/10000 [240.5s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.39% | L2: 81.55% | L3: 79.28%
+Epoch 350/10000 [241.1s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.58% | L3: 79.26%
+    >>> Checkpoint saved at epoch 350
+    >>> Plots saved to 'training_plots/' for epoch 350
+  Validation Loss: 1.1795 | Accuracy: 81.84% | L1: 85.57% | L2: 80.86% | L3: 79.08%
+Epoch 351/10000 [238.2s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.36% | L2: 81.57% | L3: 79.23%
+Epoch 352/10000 [237.9s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.57% | L3: 79.27%
+  Validation Loss: 1.1693 | Accuracy: 82.15% | L1: 86.08% | L2: 81.22% | L3: 79.15%
+Epoch 353/10000 [238.5s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.60% | L3: 79.28%
+Epoch 354/10000 [238.0s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.60% | L3: 79.27%
+  Validation Loss: 1.1785 | Accuracy: 82.03% | L1: 85.90% | L2: 81.02% | L3: 79.15%
+Epoch 355/10000 [225.8s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.58% | L3: 79.30%
+Epoch 356/10000 [230.0s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.35% | L2: 81.55% | L3: 79.27%
+  Validation Loss: 1.1633 | Accuracy: 82.30% | L1: 86.28% | L2: 81.18% | L3: 79.43%
+Epoch 357/10000 [230.3s] | Training Loss: 1.1677 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.58% | L3: 79.26%
+Epoch 358/10000 [230.4s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.60% | L3: 79.27%
+  Validation Loss: 1.1701 | Accuracy: 82.11% | L1: 85.97% | L2: 81.22% | L3: 79.13%
+Epoch 359/10000 [230.5s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.29% | L2: 81.58% | L3: 79.28%
+Epoch 360/10000 [230.2s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.60% | L3: 79.28%
+  Validation Loss: 1.1655 | Accuracy: 82.24% | L1: 86.06% | L2: 81.27% | L3: 79.40%
+Epoch 361/10000 [230.3s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.28% | L2: 81.60% | L3: 79.28%
+Epoch 362/10000 [230.4s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.37% | L2: 81.59% | L3: 79.29%
+  Validation Loss: 1.1699 | Accuracy: 82.14% | L1: 86.17% | L2: 81.06% | L3: 79.20%
+Epoch 363/10000 [230.4s] | Training Loss: 1.1679 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.31% | L2: 81.59% | L3: 79.30%
+Epoch 364/10000 [230.3s] | Training Loss: 1.1679 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.56% | L3: 79.29%
+  Validation Loss: 1.1782 | Accuracy: 82.03% | L1: 85.85% | L2: 80.99% | L3: 79.23%
+Epoch 365/10000 [230.4s] | Training Loss: 1.1676 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.56% | L3: 79.30%
+Epoch 366/10000 [230.2s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.57% | L3: 79.30%
+  Validation Loss: 1.1685 | Accuracy: 82.23% | L1: 86.06% | L2: 81.28% | L3: 79.37%
+Epoch 367/10000 [229.0s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.58% | L3: 79.28%
+Epoch 368/10000 [231.8s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.28% | L2: 81.63% | L3: 79.28%
+  Validation Loss: 1.1666 | Accuracy: 82.07% | L1: 85.46% | L2: 81.34% | L3: 79.40%
+Patience reached (20). Reloading best model from best_fastervit_hevc_balanced.pth...
+Refreshing Training Data...
+Initializing StreamingDataset: /raid/somdyutiai/Krishna_24AI60R38/PycharmProjects/HEVC_Intra_Models-ETH-CNN_Pt/Data/AI_Train_1668975.dat_shuffled
+Max samples: 1668975
+Refreshing validation datasets...
+Initializing StreamingDataset: /raid/somdyutiai/Krishna_24AI60R38/PycharmProjects/HEVC_Intra_Models-ETH-CNN_Pt/Data/AI_Valid_98175.dat_shuffled
+Max samples: 98175
+Epoch 369/10000 [233.3s] | Training Loss: 1.1684 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.35% | L2: 81.58% | L3: 79.23%
+Epoch 370/10000 [228.0s] | Training Loss: 1.1695 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.30% | L2: 81.58% | L3: 79.24%
+  Validation Loss: 1.1661 | Accuracy: 82.21% | L1: 85.94% | L2: 81.33% | L3: 79.35%
+Epoch 371/10000 [231.6s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.58% | L3: 79.26%
+Epoch 372/10000 [232.2s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.35% | L2: 81.59% | L3: 79.25%
+  Validation Loss: 1.1693 | Accuracy: 82.20% | L1: 86.14% | L2: 81.22% | L3: 79.24%
+Epoch 373/10000 [232.1s] | Training Loss: 1.1684 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.39% | L2: 81.57% | L3: 79.24%
+Epoch 374/10000 [231.8s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.32% | L2: 81.52% | L3: 79.26%
+  Validation Loss: 1.1735 | Accuracy: 82.06% | L1: 86.18% | L2: 80.96% | L3: 79.04%
+Epoch 375/10000 [231.5s] | Training Loss: 1.1693 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.33% | L2: 81.54% | L3: 79.24%
+Epoch 376/10000 [232.0s] | Training Loss: 1.1697 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.26% | L2: 81.59% | L3: 79.27%
+  Validation Loss: 1.1688 | Accuracy: 82.15% | L1: 85.84% | L2: 81.28% | L3: 79.34%
+Epoch 377/10000 [231.4s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.59% | L3: 79.27%
+Epoch 378/10000 [231.0s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.29% | L2: 81.59% | L3: 79.24%
+  Validation Loss: 1.1709 | Accuracy: 82.13% | L1: 86.18% | L2: 81.05% | L3: 79.16%
+Epoch 379/10000 [231.4s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.30% | L2: 81.58% | L3: 79.26%
+Epoch 380/10000 [231.3s] | Training Loss: 1.1696 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.29% | L2: 81.59% | L3: 79.24%
+  Validation Loss: 1.1916 | Accuracy: 81.98% | L1: 85.53% | L2: 81.10% | L3: 79.30%
+Epoch 381/10000 [230.9s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.36% | L2: 81.56% | L3: 79.29%
+Epoch 382/10000 [231.1s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.31% | L2: 81.57% | L3: 79.24%
+  Validation Loss: 1.1685 | Accuracy: 82.19% | L1: 86.11% | L2: 81.20% | L3: 79.25%
+Epoch 383/10000 [232.3s] | Training Loss: 1.1672 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.37% | L2: 81.61% | L3: 79.27%
+Epoch 384/10000 [231.2s] | Training Loss: 1.1691 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.30% | L2: 81.57% | L3: 79.26%
+  Validation Loss: 1.1683 | Accuracy: 82.15% | L1: 86.11% | L2: 81.16% | L3: 79.19%
+Epoch 385/10000 [227.6s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.29% | L2: 81.60% | L3: 79.26%
+Epoch 386/10000 [230.8s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.36% | L2: 81.59% | L3: 79.26%
+  Validation Loss: 1.1791 | Accuracy: 81.94% | L1: 85.43% | L2: 81.15% | L3: 79.22%
+Epoch 387/10000 [231.4s] | Training Loss: 1.1684 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.58% | L3: 79.30%
+Epoch 388/10000 [231.4s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.58% | L3: 79.25%
+  Validation Loss: 1.1979 | Accuracy: 81.55% | L1: 85.37% | L2: 80.47% | L3: 78.83%
+Epoch 389/10000 [231.9s] | Training Loss: 1.1690 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.28% | L2: 81.59% | L3: 79.28%
+Epoch 390/10000 [230.8s] | Training Loss: 1.1679 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.60% | L3: 79.28%
+  Validation Loss: 1.1756 | Accuracy: 82.06% | L1: 85.89% | L2: 81.13% | L3: 79.17%
+Epoch 391/10000 [230.5s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.30% | L2: 81.58% | L3: 79.28%
+Epoch 392/10000 [230.9s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.36% | L2: 81.60% | L3: 79.26%
+  Validation Loss: 1.1929 | Accuracy: 81.82% | L1: 85.17% | L2: 81.16% | L3: 79.12%
+Epoch 393/10000 [230.5s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.58% | L3: 79.28%
+Epoch 394/10000 [231.0s] | Training Loss: 1.1693 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.27% | L2: 81.57% | L3: 79.27%
+  Validation Loss: 1.1744 | Accuracy: 82.07% | L1: 86.08% | L2: 80.84% | L3: 79.30%
+Epoch 395/10000 [231.0s] | Training Loss: 1.1675 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.36% | L2: 81.56% | L3: 79.31%
+Epoch 396/10000 [230.7s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.59% | L3: 79.27%
+  Validation Loss: 1.1720 | Accuracy: 82.09% | L1: 85.87% | L2: 81.13% | L3: 79.27%
+Epoch 397/10000 [230.3s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.58% | L3: 79.27%
+Epoch 398/10000 [231.4s] | Training Loss: 1.1677 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.33% | L2: 81.58% | L3: 79.31%
+  Validation Loss: 1.1770 | Accuracy: 82.05% | L1: 86.18% | L2: 81.04% | L3: 78.92%
+Epoch 399/10000 [230.9s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.33% | L2: 81.58% | L3: 79.28%
+Epoch 400/10000 [226.9s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.59% | L3: 79.28%
+    >>> Checkpoint saved at epoch 400
+    >>> Plots saved to 'training_plots/' for epoch 400
+  Validation Loss: 1.1764 | Accuracy: 81.95% | L1: 85.66% | L2: 80.86% | L3: 79.32%
+Epoch 401/10000 [231.5s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.30% | L2: 81.59% | L3: 79.29%
+Epoch 402/10000 [230.6s] | Training Loss: 1.1675 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.57% | L3: 79.28%
+  Validation Loss: 1.1722 | Accuracy: 82.07% | L1: 85.84% | L2: 81.07% | L3: 79.31%
+Epoch 403/10000 [230.7s] | Training Loss: 1.1674 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.59% | L3: 79.28%
+Epoch 404/10000 [231.5s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.35% | L2: 81.58% | L3: 79.26%
+  Validation Loss: 1.1749 | Accuracy: 82.05% | L1: 86.09% | L2: 80.92% | L3: 79.14%
+Epoch 405/10000 [231.8s] | Training Loss: 1.1675 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.33% | L2: 81.61% | L3: 79.28%
+Epoch 406/10000 [230.6s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.29% | L2: 81.59% | L3: 79.29%
+  Validation Loss: 1.1711 | Accuracy: 82.11% | L1: 85.93% | L2: 81.14% | L3: 79.24%
+Epoch 407/10000 [231.4s] | Training Loss: 1.1676 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.34% | L2: 81.59% | L3: 79.31%
+Epoch 408/10000 [230.9s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.58% | L3: 79.29%
+  Validation Loss: 1.1676 | Accuracy: 82.20% | L1: 86.04% | L2: 81.30% | L3: 79.24%
+Patience reached (20). Reloading best model from best_fastervit_hevc_balanced.pth...
+Refreshing Training Data...
+Initializing StreamingDataset: /raid/somdyutiai/Krishna_24AI60R38/PycharmProjects/HEVC_Intra_Models-ETH-CNN_Pt/Data/AI_Train_1668975.dat_shuffled
+Max samples: 1668975
+Epoch 409/10000 [231.6s] | Training Loss: 1.1693 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.57% | L3: 79.26%
+Epoch 410/10000 [231.5s] | Training Loss: 1.1698 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.30% | L2: 81.57% | L3: 79.24%
+  Validation Loss: 1.1642 | Accuracy: 82.27% | L1: 86.08% | L2: 81.33% | L3: 79.40%
+Epoch 411/10000 [231.9s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.58% | L3: 79.25%
+Epoch 412/10000 [231.6s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.34% | L2: 81.57% | L3: 79.24%
+  Validation Loss: 1.1700 | Accuracy: 82.18% | L1: 86.17% | L2: 81.13% | L3: 79.24%
+Epoch 413/10000 [231.2s] | Training Loss: 1.1695 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.33% | L2: 81.55% | L3: 79.24%
+Epoch 414/10000 [230.2s] | Training Loss: 1.1691 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.35% | L2: 81.56% | L3: 79.23%
+  Validation Loss: 1.1789 | Accuracy: 82.00% | L1: 85.87% | L2: 81.02% | L3: 79.10%
+Epoch 415/10000 [226.3s] | Training Loss: 1.1693 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.30% | L2: 81.55% | L3: 79.24%
+Epoch 416/10000 [231.5s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.31% | L2: 81.56% | L3: 79.24%
+  Validation Loss: 1.1695 | Accuracy: 82.19% | L1: 86.20% | L2: 81.10% | L3: 79.26%
+Epoch 417/10000 [231.1s] | Training Loss: 1.1690 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.33% | L2: 81.56% | L3: 79.24%
+Epoch 418/10000 [231.2s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.30% | L2: 81.59% | L3: 79.26%
+  Validation Loss: 1.1665 | Accuracy: 82.28% | L1: 86.18% | L2: 81.32% | L3: 79.34%
+Epoch 419/10000 [231.9s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.58% | L3: 79.24%
+Epoch 420/10000 [232.0s] | Training Loss: 1.1691 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.33% | L2: 81.57% | L3: 79.26%
+  Validation Loss: 1.1658 | Accuracy: 82.22% | L1: 86.26% | L2: 81.18% | L3: 79.21%
+Epoch 421/10000 [231.5s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.57% | L3: 79.26%
+Epoch 422/10000 [231.5s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.58% | L3: 79.25%
+  Validation Loss: 1.1723 | Accuracy: 82.10% | L1: 86.01% | L2: 81.05% | L3: 79.23%
+Epoch 423/10000 [242.9s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.59% | L3: 79.25%
+Epoch 424/10000 [242.1s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.30% | L2: 81.56% | L3: 79.25%
+  Validation Loss: 1.1704 | Accuracy: 82.23% | L1: 86.38% | L2: 81.12% | L3: 79.19%
+Epoch 425/10000 [241.6s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.61% | L3: 79.26%
+Epoch 426/10000 [241.6s] | Training Loss: 1.1693 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.28% | L2: 81.58% | L3: 79.25%
+  Validation Loss: 1.1729 | Accuracy: 82.11% | L1: 86.22% | L2: 80.89% | L3: 79.21%
+Epoch 427/10000 [241.4s] | Training Loss: 1.1691 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.31% | L2: 81.57% | L3: 79.22%
+Epoch 428/10000 [242.7s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.33% | L2: 81.63% | L3: 79.26%
+  Validation Loss: 1.1672 | Accuracy: 82.20% | L1: 86.00% | L2: 81.28% | L3: 79.31%
+Epoch 429/10000 [241.5s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.60% | L3: 79.26%
+Epoch 430/10000 [232.4s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.27% | L2: 81.58% | L3: 79.27%
+  Validation Loss: 1.1681 | Accuracy: 82.17% | L1: 85.91% | L2: 81.21% | L3: 79.40%
+Epoch 431/10000 [241.6s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.30% | L2: 81.56% | L3: 79.26%
+Epoch 432/10000 [241.1s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.33% | L2: 81.57% | L3: 79.24%
+  Validation Loss: 1.1673 | Accuracy: 82.21% | L1: 86.11% | L2: 81.21% | L3: 79.31%
+Epoch 433/10000 [241.9s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.32% | L2: 81.62% | L3: 79.26%
+Epoch 434/10000 [241.6s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.34% | L2: 81.62% | L3: 79.28%
+  Validation Loss: 1.1698 | Accuracy: 82.19% | L1: 86.02% | L2: 81.21% | L3: 79.34%
+Epoch 435/10000 [242.9s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.58% | L3: 79.27%
+Epoch 436/10000 [241.5s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.36% | L2: 81.55% | L3: 79.24%
+  Validation Loss: 1.1677 | Accuracy: 82.25% | L1: 86.16% | L2: 81.20% | L3: 79.38%
+Epoch 437/10000 [242.3s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.61% | L3: 79.26%
+Epoch 438/10000 [242.7s] | Training Loss: 1.1684 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.30% | L2: 81.58% | L3: 79.28%
+  Validation Loss: 1.1672 | Accuracy: 82.27% | L1: 86.34% | L2: 81.14% | L3: 79.34%
+Epoch 439/10000 [242.1s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.57% | L3: 79.29%
+Epoch 440/10000 [242.4s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.29% | L2: 81.59% | L3: 79.28%
+  Validation Loss: 1.1661 | Accuracy: 82.20% | L1: 86.19% | L2: 81.16% | L3: 79.26%
+Epoch 441/10000 [241.5s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.30% | L2: 81.60% | L3: 79.28%
+Epoch 442/10000 [241.3s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.29% | L2: 81.59% | L3: 79.27%
+  Validation Loss: 1.1677 | Accuracy: 82.18% | L1: 86.24% | L2: 81.14% | L3: 79.16%
+Epoch 443/10000 [240.9s] | Training Loss: 1.1677 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.59% | L3: 79.28%
+Epoch 444/10000 [236.8s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.36% | L2: 81.59% | L3: 79.27%
+  Validation Loss: 1.1672 | Accuracy: 82.16% | L1: 86.16% | L2: 81.13% | L3: 79.18%
+Epoch 445/10000 [240.2s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.56% | L3: 79.28%
+Epoch 446/10000 [240.9s] | Training Loss: 1.1670 | LR: 0.000100 | Accuracy: 82.09% | L1: 85.37% | L2: 81.60% | L3: 79.31%
+  Validation Loss: 1.1738 | Accuracy: 82.12% | L1: 86.17% | L2: 80.98% | L3: 79.20%
+Epoch 447/10000 [242.5s] | Training Loss: 1.1679 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.33% | L2: 81.62% | L3: 79.29%
+Epoch 448/10000 [242.3s] | Training Loss: 1.1677 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.30% | L2: 81.63% | L3: 79.26%
+  Validation Loss: 1.1689 | Accuracy: 82.18% | L1: 86.13% | L2: 81.20% | L3: 79.20%
+Patience reached (20). Reloading best model from best_fastervit_hevc_balanced.pth...
+Refreshing Training Data...
+Initializing StreamingDataset: /raid/somdyutiai/Krishna_24AI60R38/PycharmProjects/HEVC_Intra_Models-ETH-CNN_Pt/Data/AI_Train_1668975.dat_shuffled
+Max samples: 1668975
+Epoch 449/10000 [242.0s] | Training Loss: 1.1696 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.28% | L2: 81.58% | L3: 79.22%
+Epoch 450/10000 [242.1s] | Training Loss: 1.1695 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.31% | L2: 81.56% | L3: 79.26%
+    >>> Checkpoint saved at epoch 450
+    >>> Plots saved to 'training_plots/' for epoch 450
+  Validation Loss: 1.1679 | Accuracy: 82.20% | L1: 86.15% | L2: 81.22% | L3: 79.23%
+Epoch 451/10000 [243.5s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.60% | L3: 79.25%
+Epoch 452/10000 [241.7s] | Training Loss: 1.1696 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.31% | L2: 81.54% | L3: 79.25%
+  Validation Loss: 1.1665 | Accuracy: 82.15% | L1: 85.89% | L2: 81.19% | L3: 79.36%
+Epoch 453/10000 [241.9s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.34% | L2: 81.58% | L3: 79.22%
+Epoch 454/10000 [242.3s] | Training Loss: 1.1694 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.32% | L2: 81.56% | L3: 79.21%
+  Validation Loss: 1.1682 | Accuracy: 82.19% | L1: 85.98% | L2: 81.25% | L3: 79.34%
+Epoch 455/10000 [241.7s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.58% | L3: 79.25%
+Epoch 456/10000 [241.7s] | Training Loss: 1.1693 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.30% | L2: 81.56% | L3: 79.25%
+  Validation Loss: 1.1798 | Accuracy: 82.07% | L1: 86.12% | L2: 81.07% | L3: 79.00%
+Epoch 457/10000 [241.3s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.59% | L3: 79.24%
+Epoch 458/10000 [242.2s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.33% | L2: 81.56% | L3: 79.25%
+  Validation Loss: 1.1824 | Accuracy: 81.97% | L1: 86.13% | L2: 80.74% | L3: 79.03%
+Epoch 459/10000 [232.8s] | Training Loss: 1.1693 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.58% | L3: 79.26%
+Epoch 460/10000 [240.7s] | Training Loss: 1.1694 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.28% | L2: 81.55% | L3: 79.24%
+  Validation Loss: 1.1760 | Accuracy: 82.03% | L1: 85.92% | L2: 81.06% | L3: 79.10%
+Epoch 461/10000 [240.4s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.58% | L3: 79.28%
+Epoch 462/10000 [240.6s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.58% | L3: 79.25%
+  Validation Loss: 1.1764 | Accuracy: 82.10% | L1: 86.18% | L2: 81.09% | L3: 79.03%
+Epoch 463/10000 [240.4s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.58% | L3: 79.25%
+Epoch 464/10000 [241.5s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.36% | L2: 81.59% | L3: 79.26%
+  Validation Loss: 1.1786 | Accuracy: 81.96% | L1: 85.87% | L2: 80.84% | L3: 79.18%
+Epoch 465/10000 [241.7s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.33% | L2: 81.57% | L3: 79.26%
+Epoch 466/10000 [241.0s] | Training Loss: 1.1677 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.60% | L3: 79.26%
+  Validation Loss: 1.1748 | Accuracy: 82.16% | L1: 86.27% | L2: 81.08% | L3: 79.13%
+Epoch 467/10000 [241.6s] | Training Loss: 1.1691 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.61% | L3: 79.24%
+Epoch 468/10000 [240.7s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.57% | L3: 79.26%
+  Validation Loss: 1.1735 | Accuracy: 82.10% | L1: 85.96% | L2: 81.07% | L3: 79.27%
+Epoch 469/10000 [240.6s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.28% | L2: 81.59% | L3: 79.26%
+Epoch 470/10000 [241.2s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.29% | L2: 81.60% | L3: 79.25%
+  Validation Loss: 1.1670 | Accuracy: 82.14% | L1: 85.85% | L2: 81.29% | L3: 79.28%
+Epoch 471/10000 [240.3s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.59% | L3: 79.28%
+Epoch 472/10000 [240.5s] | Training Loss: 1.1690 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.57% | L3: 79.27%
+  Validation Loss: 1.1679 | Accuracy: 82.21% | L1: 86.13% | L2: 81.19% | L3: 79.30%
+Epoch 473/10000 [234.4s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.56% | L3: 79.28%
+Epoch 474/10000 [251.4s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.33% | L2: 81.56% | L3: 79.25%
+  Validation Loss: 1.1706 | Accuracy: 82.18% | L1: 86.00% | L2: 81.24% | L3: 79.31%
+Epoch 475/10000 [256.5s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.59% | L3: 79.25%
+Epoch 476/10000 [264.7s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.32% | L2: 81.59% | L3: 79.29%
+  Validation Loss: 1.1767 | Accuracy: 82.08% | L1: 86.05% | L2: 81.01% | L3: 79.17%
+Epoch 477/10000 [267.0s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.59% | L3: 79.28%
+Epoch 478/10000 [264.7s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.31% | L2: 81.56% | L3: 79.26%
+  Validation Loss: 1.1771 | Accuracy: 81.96% | L1: 85.49% | L2: 81.07% | L3: 79.32%
+Epoch 479/10000 [261.4s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.57% | L3: 79.26%
+Epoch 480/10000 [263.3s] | Training Loss: 1.1684 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.30% | L2: 81.58% | L3: 79.29%
+  Validation Loss: 1.1689 | Accuracy: 82.17% | L1: 85.91% | L2: 81.26% | L3: 79.35%
+Epoch 481/10000 [263.3s] | Training Loss: 1.1679 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.33% | L2: 81.60% | L3: 79.27%
+Epoch 482/10000 [262.7s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.33% | L2: 81.58% | L3: 79.29%
+  Validation Loss: 1.1679 | Accuracy: 82.16% | L1: 86.08% | L2: 81.18% | L3: 79.23%
+Epoch 483/10000 [262.0s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.32% | L2: 81.59% | L3: 79.30%
+Epoch 484/10000 [262.4s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.33% | L2: 81.59% | L3: 79.28%
+  Validation Loss: 1.1723 | Accuracy: 82.16% | L1: 86.13% | L2: 81.09% | L3: 79.26%
+Epoch 485/10000 [261.9s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.59% | L3: 79.27%
+Epoch 486/10000 [260.9s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.59% | L3: 79.27%
+  Validation Loss: 1.1779 | Accuracy: 81.96% | L1: 85.66% | L2: 81.06% | L3: 79.17%
+Epoch 487/10000 [246.5s] | Training Loss: 1.1679 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.35% | L2: 81.60% | L3: 79.29%
+Epoch 488/10000 [262.0s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.57% | L3: 79.27%
+  Validation Loss: 1.1689 | Accuracy: 82.15% | L1: 86.07% | L2: 81.12% | L3: 79.25%
+Patience reached (20). Reloading best model from best_fastervit_hevc_balanced.pth...
+Refreshing Training Data...
+Initializing StreamingDataset: /raid/somdyutiai/Krishna_24AI60R38/PycharmProjects/HEVC_Intra_Models-ETH-CNN_Pt/Data/AI_Train_1668975.dat_shuffled
+Max samples: 1668975
+Refreshing validation datasets...
+Initializing StreamingDataset: /raid/somdyutiai/Krishna_24AI60R38/PycharmProjects/HEVC_Intra_Models-ETH-CNN_Pt/Data/AI_Valid_98175.dat_shuffled
+Max samples: 98175
+Epoch 489/10000 [262.8s] | Training Loss: 1.1694 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.31% | L2: 81.54% | L3: 79.23%
+Epoch 490/10000 [261.7s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.58% | L3: 79.24%
+  Validation Loss: 1.1755 | Accuracy: 82.04% | L1: 86.21% | L2: 80.94% | L3: 78.96%
+Epoch 491/10000 [261.7s] | Training Loss: 1.1697 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.29% | L2: 81.56% | L3: 79.24%
+Epoch 492/10000 [262.3s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.34% | L2: 81.56% | L3: 79.24%
+  Validation Loss: 1.1700 | Accuracy: 82.12% | L1: 86.06% | L2: 81.13% | L3: 79.16%
+Epoch 493/10000 [262.1s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.60% | L3: 79.24%
+Epoch 494/10000 [261.9s] | Training Loss: 1.1695 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.30% | L2: 81.54% | L3: 79.24%
+  Validation Loss: 1.1785 | Accuracy: 81.99% | L1: 86.11% | L2: 81.05% | L3: 78.79%
+Epoch 495/10000 [262.1s] | Training Loss: 1.1694 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.31% | L2: 81.58% | L3: 79.22%
+Epoch 496/10000 [254.4s] | Training Loss: 1.1690 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.58% | L3: 79.25%
+  Validation Loss: 1.1697 | Accuracy: 82.18% | L1: 86.23% | L2: 81.16% | L3: 79.14%
+Epoch 497/10000 [264.1s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.35% | L2: 81.56% | L3: 79.25%
+Epoch 498/10000 [263.7s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.30% | L2: 81.59% | L3: 79.27%
+  Validation Loss: 1.1710 | Accuracy: 82.14% | L1: 86.02% | L2: 81.19% | L3: 79.20%
+Epoch 499/10000 [263.5s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.31% | L2: 81.56% | L3: 79.26%
+Epoch 500/10000 [245.3s] | Training Loss: 1.1696 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.33% | L2: 81.55% | L3: 79.22%
+    >>> Checkpoint saved at epoch 500
+    >>> Plots saved to 'training_plots/' for epoch 500
+  Validation Loss: 1.1637 | Accuracy: 82.33% | L1: 86.24% | L2: 81.36% | L3: 79.39%
+Epoch 501/10000 [222.0s] | Training Loss: 1.1684 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.62% | L3: 79.25%
+Epoch 502/10000 [221.8s] | Training Loss: 1.1691 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.29% | L2: 81.58% | L3: 79.25%
+  Validation Loss: 1.1686 | Accuracy: 82.10% | L1: 85.90% | L2: 81.15% | L3: 79.25%
+Epoch 503/10000 [221.7s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.57% | L3: 79.25%
+Epoch 504/10000 [221.4s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.58% | L3: 79.27%
+  Validation Loss: 1.1776 | Accuracy: 81.99% | L1: 86.09% | L2: 81.02% | L3: 78.88%
+Epoch 505/10000 [221.2s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.59% | L3: 79.27%
+Epoch 506/10000 [221.4s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.30% | L2: 81.59% | L3: 79.27%
+  Validation Loss: 1.1754 | Accuracy: 82.25% | L1: 86.29% | L2: 81.13% | L3: 79.34%
+Epoch 507/10000 [221.2s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.29% | L2: 81.57% | L3: 79.25%
+Epoch 508/10000 [221.8s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.57% | L3: 79.26%
+  Validation Loss: 1.1660 | Accuracy: 82.23% | L1: 86.03% | L2: 81.23% | L3: 79.41%
+Epoch 509/10000 [221.7s] | Training Loss: 1.1690 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.34% | L2: 81.57% | L3: 79.24%
+Epoch 510/10000 [221.7s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.29% | L2: 81.60% | L3: 79.24%
+  Validation Loss: 1.1828 | Accuracy: 81.95% | L1: 86.09% | L2: 80.96% | L3: 78.81%
+Epoch 511/10000 [221.8s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.58% | L3: 79.27%
+Epoch 512/10000 [221.1s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.33% | L2: 81.57% | L3: 79.24%
+  Validation Loss: 1.1641 | Accuracy: 82.25% | L1: 86.15% | L2: 81.27% | L3: 79.34%
+Epoch 513/10000 [221.5s] | Training Loss: 1.1684 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.61% | L3: 79.25%
+Epoch 514/10000 [221.7s] | Training Loss: 1.1690 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.29% | L2: 81.59% | L3: 79.25%
+  Validation Loss: 1.1703 | Accuracy: 82.16% | L1: 86.27% | L2: 81.08% | L3: 79.14%
+Epoch 515/10000 [221.1s] | Training Loss: 1.1679 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.30% | L2: 81.61% | L3: 79.28%
+Epoch 516/10000 [221.0s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.59% | L3: 79.26%
+  Validation Loss: 1.1659 | Accuracy: 82.18% | L1: 86.12% | L2: 81.15% | L3: 79.28%
+Epoch 517/10000 [221.0s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.58% | L3: 79.28%
+Epoch 518/10000 [221.6s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.59% | L3: 79.27%
+  Validation Loss: 1.1677 | Accuracy: 82.19% | L1: 86.13% | L2: 81.15% | L3: 79.28%
+Epoch 519/10000 [221.6s] | Training Loss: 1.1679 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.30% | L2: 81.59% | L3: 79.30%
+Epoch 520/10000 [221.2s] | Training Loss: 1.1684 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.29% | L2: 81.58% | L3: 79.27%
+  Validation Loss: 1.1956 | Accuracy: 81.78% | L1: 85.26% | L2: 80.96% | L3: 79.13%
+Epoch 521/10000 [220.9s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.58% | L3: 79.29%
+Epoch 522/10000 [222.0s] | Training Loss: 1.1679 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.32% | L2: 81.59% | L3: 79.31%
+  Validation Loss: 1.1741 | Accuracy: 82.10% | L1: 86.09% | L2: 81.01% | L3: 79.20%
+Epoch 523/10000 [221.4s] | Training Loss: 1.1690 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.58% | L3: 79.25%
+Epoch 524/10000 [221.9s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.33% | L2: 81.60% | L3: 79.27%
+  Validation Loss: 1.1722 | Accuracy: 82.10% | L1: 86.23% | L2: 81.04% | L3: 79.04%
+Epoch 525/10000 [221.1s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.28% | L2: 81.59% | L3: 79.28%
+Epoch 526/10000 [221.5s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.31% | L2: 81.60% | L3: 79.30%
+  Validation Loss: 1.1889 | Accuracy: 81.82% | L1: 85.41% | L2: 80.88% | L3: 79.17%
+Epoch 527/10000 [221.1s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.35% | L2: 81.56% | L3: 79.28%
+Epoch 528/10000 [221.5s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.29% | L2: 81.58% | L3: 79.27%
+  Validation Loss: 1.1799 | Accuracy: 81.92% | L1: 85.76% | L2: 80.86% | L3: 79.15%
+Patience reached (20). Reloading best model from best_fastervit_hevc_balanced.pth...
+Refreshing Training Data...
+Initializing StreamingDataset: /raid/somdyutiai/Krishna_24AI60R38/PycharmProjects/HEVC_Intra_Models-ETH-CNN_Pt/Data/AI_Train_1668975.dat_shuffled
+Max samples: 1668975
+Epoch 529/10000 [221.5s] | Training Loss: 1.1691 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.33% | L2: 81.55% | L3: 79.26%
+Epoch 530/10000 [221.2s] | Training Loss: 1.1696 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.30% | L2: 81.55% | L3: 79.25%
+  Validation Loss: 1.1661 | Accuracy: 82.22% | L1: 86.12% | L2: 81.25% | L3: 79.27%
+Epoch 531/10000 [222.4s] | Training Loss: 1.1694 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.31% | L2: 81.56% | L3: 79.24%
+Epoch 532/10000 [223.6s] | Training Loss: 1.1696 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.30% | L2: 81.59% | L3: 79.23%
+  Validation Loss: 1.1702 | Accuracy: 82.22% | L1: 86.02% | L2: 81.25% | L3: 79.40%
+Epoch 533/10000 [223.7s] | Training Loss: 1.1693 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.30% | L2: 81.57% | L3: 79.24%
+Epoch 534/10000 [223.4s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.34% | L2: 81.56% | L3: 79.24%
+  Validation Loss: 1.1714 | Accuracy: 82.14% | L1: 86.05% | L2: 81.13% | L3: 79.25%
+Epoch 535/10000 [224.1s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.59% | L3: 79.25%
+Epoch 536/10000 [223.9s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.33% | L2: 81.54% | L3: 79.24%
+  Validation Loss: 1.1644 | Accuracy: 82.25% | L1: 86.11% | L2: 81.30% | L3: 79.34%
+Epoch 537/10000 [223.4s] | Training Loss: 1.1697 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.30% | L2: 81.56% | L3: 79.23%
+Epoch 538/10000 [222.9s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.59% | L3: 79.26%
+  Validation Loss: 1.1767 | Accuracy: 81.95% | L1: 85.39% | L2: 81.10% | L3: 79.36%
+Epoch 539/10000 [223.3s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.31% | L2: 81.54% | L3: 79.25%
+Epoch 540/10000 [223.6s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.61% | L3: 79.25%
+  Validation Loss: 1.1715 | Accuracy: 82.04% | L1: 85.73% | L2: 81.21% | L3: 79.18%
+Epoch 541/10000 [223.4s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.55% | L3: 79.28%
+Epoch 542/10000 [223.6s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.35% | L2: 81.57% | L3: 79.26%
+  Validation Loss: 1.1702 | Accuracy: 82.14% | L1: 86.11% | L2: 81.12% | L3: 79.19%
+Epoch 543/10000 [222.7s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.30% | L2: 81.57% | L3: 79.27%
+Epoch 544/10000 [223.8s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.32% | L2: 81.60% | L3: 79.28%
+  Validation Loss: 1.1736 | Accuracy: 82.06% | L1: 86.05% | L2: 80.85% | L3: 79.27%
+Epoch 545/10000 [223.7s] | Training Loss: 1.1690 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.28% | L2: 81.58% | L3: 79.26%
+Epoch 546/10000 [223.2s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.57% | L3: 79.28%
+  Validation Loss: 1.1731 | Accuracy: 82.12% | L1: 86.12% | L2: 81.05% | L3: 79.20%
+Epoch 547/10000 [223.6s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.59% | L3: 79.26%
+Epoch 548/10000 [223.5s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.33% | L2: 81.56% | L3: 79.28%
+  Validation Loss: 1.1757 | Accuracy: 82.05% | L1: 85.89% | L2: 80.92% | L3: 79.34%
+Epoch 549/10000 [223.4s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.30% | L2: 81.59% | L3: 79.29%
+Epoch 550/10000 [223.5s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.30% | L2: 81.58% | L3: 79.26%
+    >>> Checkpoint saved at epoch 550
+    >>> Plots saved to 'training_plots/' for epoch 550
+  Validation Loss: 1.1705 | Accuracy: 82.09% | L1: 86.10% | L2: 81.08% | L3: 79.08%
+Epoch 551/10000 [223.4s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.28% | L2: 81.59% | L3: 79.27%
+Epoch 552/10000 [222.8s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.58% | L3: 79.27%
+  Validation Loss: 1.1702 | Accuracy: 82.16% | L1: 86.10% | L2: 81.12% | L3: 79.26%
+Epoch 553/10000 [223.4s] | Training Loss: 1.1677 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.33% | L2: 81.60% | L3: 79.31%
+Epoch 554/10000 [222.7s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.58% | L3: 79.28%
+  Validation Loss: 1.1687 | Accuracy: 82.14% | L1: 86.03% | L2: 81.23% | L3: 79.16%
+Epoch 555/10000 [223.1s] | Training Loss: 1.1679 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.56% | L3: 79.29%
+Epoch 556/10000 [223.0s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.58% | L3: 79.29%
+  Validation Loss: 1.1764 | Accuracy: 81.99% | L1: 86.03% | L2: 80.86% | L3: 79.09%
+Epoch 557/10000 [223.2s] | Training Loss: 1.1690 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.58% | L3: 79.26%
+Epoch 558/10000 [223.2s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.27% | L2: 81.59% | L3: 79.28%
+  Validation Loss: 1.1831 | Accuracy: 81.80% | L1: 85.44% | L2: 80.94% | L3: 79.02%
+Epoch 559/10000 [223.0s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.60% | L3: 79.27%
+Epoch 560/10000 [223.2s] | Training Loss: 1.1677 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.31% | L2: 81.59% | L3: 79.31%
+  Validation Loss: 1.1641 | Accuracy: 82.30% | L1: 86.40% | L2: 81.20% | L3: 79.31%
+Epoch 561/10000 [223.0s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.30% | L2: 81.59% | L3: 79.28%
+Epoch 562/10000 [223.5s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.35% | L2: 81.58% | L3: 79.27%
+  Validation Loss: 1.1738 | Accuracy: 82.12% | L1: 86.19% | L2: 80.94% | L3: 79.24%
+Epoch 563/10000 [223.0s] | Training Loss: 1.1675 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.36% | L2: 81.60% | L3: 79.27%
+Epoch 564/10000 [222.9s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.58% | L3: 79.25%
+  Validation Loss: 1.1689 | Accuracy: 82.13% | L1: 86.01% | L2: 81.09% | L3: 79.31%
+Epoch 565/10000 [222.7s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.58% | L3: 79.26%
+Epoch 566/10000 [223.0s] | Training Loss: 1.1676 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.35% | L2: 81.58% | L3: 79.30%
+  Validation Loss: 1.1835 | Accuracy: 81.88% | L1: 85.58% | L2: 80.81% | L3: 79.26%
+Epoch 567/10000 [223.2s] | Training Loss: 1.1676 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.61% | L3: 79.27%
+Epoch 568/10000 [223.1s] | Training Loss: 1.1675 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.58% | L3: 79.30%
+  Validation Loss: 1.1715 | Accuracy: 82.13% | L1: 86.27% | L2: 81.03% | L3: 79.07%
+Patience reached (20). Reloading best model from best_fastervit_hevc_balanced.pth...
+Refreshing Training Data...
+Initializing StreamingDataset: /raid/somdyutiai/Krishna_24AI60R38/PycharmProjects/HEVC_Intra_Models-ETH-CNN_Pt/Data/AI_Train_1668975.dat_shuffled
+Max samples: 1668975
+Epoch 569/10000 [223.5s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.35% | L2: 81.59% | L3: 79.25%
+Epoch 570/10000 [224.1s] | Training Loss: 1.1693 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.29% | L2: 81.57% | L3: 79.24%
+  Validation Loss: 1.1769 | Accuracy: 82.07% | L1: 86.07% | L2: 80.94% | L3: 79.20%
+Epoch 571/10000 [223.7s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.56% | L3: 79.28%
+Epoch 572/10000 [223.7s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.29% | L2: 81.57% | L3: 79.28%
+  Validation Loss: 1.1792 | Accuracy: 81.90% | L1: 85.34% | L2: 81.13% | L3: 79.23%
+Epoch 573/10000 [223.6s] | Training Loss: 1.1694 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.58% | L3: 79.26%
+Epoch 574/10000 [223.2s] | Training Loss: 1.1699 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.28% | L2: 81.57% | L3: 79.23%
+  Validation Loss: 1.1744 | Accuracy: 82.07% | L1: 85.88% | L2: 81.06% | L3: 79.27%
+Epoch 575/10000 [223.5s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.60% | L3: 79.23%
+Epoch 576/10000 [223.6s] | Training Loss: 1.1696 | LR: 0.000100 | Accuracy: 82.03% | L1: 85.29% | L2: 81.56% | L3: 79.24%
+  Validation Loss: 1.1736 | Accuracy: 82.14% | L1: 86.17% | L2: 80.96% | L3: 79.28%
+Epoch 577/10000 [223.7s] | Training Loss: 1.1686 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.31% | L2: 81.55% | L3: 79.25%
+Epoch 578/10000 [223.6s] | Training Loss: 1.1696 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.28% | L2: 81.59% | L3: 79.24%
+  Validation Loss: 1.1776 | Accuracy: 82.04% | L1: 86.00% | L2: 80.84% | L3: 79.29%
+Epoch 579/10000 [223.7s] | Training Loss: 1.1687 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.58% | L3: 79.26%
+Epoch 580/10000 [224.2s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.31% | L2: 81.58% | L3: 79.25%
+  Validation Loss: 1.1798 | Accuracy: 82.07% | L1: 85.88% | L2: 81.17% | L3: 79.16%
+Epoch 581/10000 [223.6s] | Training Loss: 1.1690 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.57% | L3: 79.26%
+Epoch 582/10000 [223.5s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.59% | L3: 79.27%
+  Validation Loss: 1.1685 | Accuracy: 82.19% | L1: 86.16% | L2: 81.14% | L3: 79.26%
+Epoch 583/10000 [223.2s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.30% | L2: 81.58% | L3: 79.26%
+Epoch 584/10000 [223.4s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.57% | L3: 79.30%
+  Validation Loss: 1.1636 | Accuracy: 82.24% | L1: 86.19% | L2: 81.21% | L3: 79.34%
+Epoch 585/10000 [223.5s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.54% | L3: 79.28%
+Epoch 586/10000 [223.5s] | Training Loss: 1.1691 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.30% | L2: 81.56% | L3: 79.28%
+  Validation Loss: 1.1700 | Accuracy: 82.19% | L1: 86.08% | L2: 81.17% | L3: 79.32%
+Epoch 587/10000 [223.9s] | Training Loss: 1.1692 | LR: 0.000100 | Accuracy: 82.04% | L1: 85.28% | L2: 81.55% | L3: 79.28%
+Epoch 588/10000 [223.7s] | Training Loss: 1.1688 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.33% | L2: 81.59% | L3: 79.25%
+  Validation Loss: 1.1704 | Accuracy: 82.16% | L1: 86.19% | L2: 81.08% | L3: 79.20%
+Epoch 589/10000 [223.5s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.35% | L2: 81.59% | L3: 79.25%
+Epoch 590/10000 [223.5s] | Training Loss: 1.1683 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.34% | L2: 81.58% | L3: 79.25%
+  Validation Loss: 1.1689 | Accuracy: 82.24% | L1: 86.10% | L2: 81.31% | L3: 79.32%
+Epoch 591/10000 [223.5s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.59% | L3: 79.26%
+Epoch 592/10000 [223.4s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.36% | L2: 81.61% | L3: 79.24%
+  Validation Loss: 1.1682 | Accuracy: 82.15% | L1: 86.04% | L2: 81.19% | L3: 79.23%
+Epoch 593/10000 [223.5s] | Training Loss: 1.1689 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.30% | L2: 81.58% | L3: 79.26%
+Epoch 594/10000 [224.3s] | Training Loss: 1.1684 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.34% | L2: 81.55% | L3: 79.27%
+  Validation Loss: 1.1737 | Accuracy: 82.10% | L1: 86.11% | L2: 81.11% | L3: 79.08%
+Epoch 595/10000 [223.6s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.05% | L1: 85.32% | L2: 81.57% | L3: 79.27%
+Epoch 596/10000 [224.2s] | Training Loss: 1.1681 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.35% | L2: 81.60% | L3: 79.28%
+  Validation Loss: 1.1704 | Accuracy: 82.14% | L1: 86.06% | L2: 81.13% | L3: 79.25%
+Epoch 597/10000 [223.2s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.57% | L3: 79.28%
+Epoch 598/10000 [223.3s] | Training Loss: 1.1679 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.34% | L2: 81.62% | L3: 79.26%
+  Validation Loss: 1.1758 | Accuracy: 81.90% | L1: 85.41% | L2: 81.13% | L3: 79.15%
+Epoch 599/10000 [223.7s] | Training Loss: 1.1676 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.60% | L3: 79.28%
+Epoch 600/10000 [223.6s] | Training Loss: 1.1679 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.57% | L3: 79.30%
+    >>> Checkpoint saved at epoch 600
+    >>> Plots saved to 'training_plots/' for epoch 600
+  Validation Loss: 1.1725 | Accuracy: 82.20% | L1: 86.14% | L2: 81.12% | L3: 79.33%
+Epoch 601/10000 [223.1s] | Training Loss: 1.1682 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.32% | L2: 81.59% | L3: 79.26%
+Epoch 602/10000 [223.5s] | Training Loss: 1.1680 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.59% | L3: 79.29%
+  Validation Loss: 1.1726 | Accuracy: 82.17% | L1: 86.17% | L2: 81.11% | L3: 79.23%
+Epoch 603/10000 [223.0s] | Training Loss: 1.1678 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.30% | L2: 81.62% | L3: 79.29%
+Epoch 604/10000 [223.6s] | Training Loss: 1.1677 | LR: 0.000100 | Accuracy: 82.07% | L1: 85.34% | L2: 81.56% | L3: 79.31%
+  Validation Loss: 1.1728 | Accuracy: 82.09% | L1: 85.99% | L2: 81.19% | L3: 79.09%
+Epoch 605/10000 [223.6s] | Training Loss: 1.1674 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.35% | L2: 81.61% | L3: 79.28%
+Epoch 606/10000 [223.3s] | Training Loss: 1.1676 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.31% | L2: 81.60% | L3: 79.29%
+  Validation Loss: 1.1703 | Accuracy: 82.12% | L1: 85.91% | L2: 81.17% | L3: 79.27%
+Epoch 607/10000 [223.1s] | Training Loss: 1.1675 | LR: 0.000100 | Accuracy: 82.08% | L1: 85.33% | L2: 81.61% | L3: 79.29%
+Epoch 608/10000 [223.2s] | Training Loss: 1.1685 | LR: 0.000100 | Accuracy: 82.06% | L1: 85.33% | L2: 81.55% | L3: 79.30%
+  Validation Loss: 1.1685 | Accuracy: 82.17% | L1: 86.12% | L2: 81.21% | L3: 79.17%
+Patience reached (20). Reloading best model from best_fastervit_hevc_balanced.pth...
+Refreshing Training Data...
+Initializing StreamingDataset: /raid/somdyutiai/Krishna_24AI60R38/PycharmProjects/HEVC_Intra_Models-ETH-CNN_Pt/Data/AI_Train_1668975.dat_shuffled
+Max samples: 1668975
+
+============================================================
+TERMINATION: Validation dataset shuffled 3 times without loss improvement.
+============================================================
+
+============================================================
+GENERATING FINAL PLOTS
+============================================================
+    >>> Plots saved to 'training_plots/' for epoch 10000
+Plots saved as .png files.
+
+============================================================
+TRAINING COMPLETED
+Best Loss: 1.1618
+============================================================
