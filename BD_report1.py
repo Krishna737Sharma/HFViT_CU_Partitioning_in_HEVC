@@ -3,7 +3,7 @@ import bjontegaard as bd  # pip install bjontegaard
 import sys
 
 # --- 1. Data Loading and Parsing ---
-filename = '/root/myproject/HEVC_Intra_Models-ViT/Model_performence - Sheet1 (1).csv'  # Ensure this matches your CSV filename
+filename = '/root/myproject/HEVC_Intra_Models-ViT/Model_performence - Sheet1.csv'
 
 try:
     with open(filename, 'r') as f:
@@ -128,16 +128,20 @@ for video in videos:
         print(f"Error calculating BD-rate for FasterViT on {video}: {e}")
         bd_psnr_vit = bd_vmaf_vit = bd_ssim_vit = None
     
-    # FasterViT Speedup: (T_cnn - T_fastervit) / T_cnn * 100
+    # FasterViT Speedup wrt CNN: (T_cnn - T_fastervit) / T_cnn * 100
     t_vit = vit['TotalTimeMin'].sum()
     speedup_vit = (t_cnn - t_vit) / t_cnn * 100
+    
+    # FasterViT Speedup wrt HEVC: (T_hevc - T_fastervit) / T_hevc * 100
+    speedup_vit_wrt_hevc = (t_hevc - t_vit) / t_hevc * 100
     
     results_vit.append({
         'video name': video,
         'BD-rate PSNR': bd_psnr_vit,
         'BD-Rate VMAF': bd_vmaf_vit,
         'BD-Rate MS-SSIM': bd_ssim_vit,
-        'speed up': speedup_vit
+        'speed up wrt CNN': speedup_vit,
+        'speed up wrt HEVC': speedup_vit_wrt_hevc
     })
 
 # --- 3. Create Tables and Add Average Row ---
