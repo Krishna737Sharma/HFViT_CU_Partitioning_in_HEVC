@@ -1,0 +1,1034 @@
+Epoch [270/10000] Train Loss: 1.3568 | Val Loss: 1.3285
+  Train Acc: 78.32% | Val Acc: 79.60%
+  Train L1: 85.26% | Train L2: 77.42% | Train L3: 72.27%
+  Val L1:   84.91% | Val L2:   79.34% | Val L3:   74.53%
+  [Patience: 1/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3285)
+Epoch [271/10000] Train Loss: 1.3552 | Val Loss: 1.3340
+  Train Acc: 78.32% | Val Acc: 79.40%
+  Train L1: 85.24% | Train L2: 77.43% | Train L3: 72.30%
+  Val L1:   84.31% | Val L2:   79.54% | Val L3:   74.36%
+  [Patience: 0/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [272/10000] Train Loss: 1.3554 | Val Loss: 1.3379
+  Train Acc: 78.32% | Val Acc: 79.31%
+  Train L1: 85.20% | Train L2: 77.46% | Train L3: 72.30%
+  Val L1:   84.35% | Val L2:   79.49% | Val L3:   74.08%
+  [Patience: 1/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [273/10000] Train Loss: 1.3544 | Val Loss: 1.3373
+  Train Acc: 78.34% | Val Acc: 79.51%
+  Train L1: 85.18% | Train L2: 77.47% | Train L3: 72.36%
+  Val L1:   84.69% | Val L2:   79.38% | Val L3:   74.45%
+  [Patience: 2/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [274/10000] Train Loss: 1.3564 | Val Loss: 1.3292
+  Train Acc: 78.28% | Val Acc: 78.97%
+  Train L1: 85.07% | Train L2: 77.44% | Train L3: 72.33%
+  Val L1:   83.26% | Val L2:   79.24% | Val L3:   74.42%
+  [Patience: 3/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [275/10000] Train Loss: 1.3541 | Val Loss: 1.3381
+  Train Acc: 78.34% | Val Acc: 79.54%
+  Train L1: 85.19% | Train L2: 77.51% | Train L3: 72.33%
+  Val L1:   84.62% | Val L2:   79.60% | Val L3:   74.39%
+  [Patience: 4/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [276/10000] Train Loss: 1.3541 | Val Loss: 1.3283
+  Train Acc: 78.35% | Val Acc: 79.27%
+  Train L1: 85.22% | Train L2: 77.44% | Train L3: 72.39%
+  Val L1:   84.01% | Val L2:   79.45% | Val L3:   74.36%
+  [Patience: 5/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3283)
+Epoch [277/10000] Train Loss: 1.3528 | Val Loss: 1.3302
+  Train Acc: 78.38% | Val Acc: 79.44%
+  Train L1: 85.20% | Train L2: 77.51% | Train L3: 72.41%
+  Val L1:   84.40% | Val L2:   79.54% | Val L3:   74.39%
+  [Patience: 0/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [278/10000] Train Loss: 1.3538 | Val Loss: 1.3328
+  Train Acc: 78.37% | Val Acc: 79.36%
+  Train L1: 85.15% | Train L2: 77.48% | Train L3: 72.46%
+  Val L1:   84.19% | Val L2:   79.57% | Val L3:   74.32%
+  [Patience: 1/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [279/10000] Train Loss: 1.3539 | Val Loss: 1.3407
+  Train Acc: 78.34% | Val Acc: 79.35%
+  Train L1: 85.17% | Train L2: 77.46% | Train L3: 72.39%
+  Val L1:   83.98% | Val L2:   79.58% | Val L3:   74.50%
+  [Patience: 2/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [280/10000] Train Loss: 1.3536 | Val Loss: 1.3289
+  Train Acc: 78.36% | Val Acc: 79.70%
+  Train L1: 85.17% | Train L2: 77.49% | Train L3: 72.41%
+  Val L1:   85.25% | Val L2:   79.65% | Val L3:   74.18%
+  [Patience: 3/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [281/10000] Train Loss: 1.3521 | Val Loss: 1.3261
+  Train Acc: 78.37% | Val Acc: 79.52%
+  Train L1: 85.19% | Train L2: 77.48% | Train L3: 72.44%
+  Val L1:   84.41% | Val L2:   79.73% | Val L3:   74.44%
+  [Patience: 4/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3261)
+Epoch [282/10000] Train Loss: 1.3516 | Val Loss: 1.3337
+  Train Acc: 78.39% | Val Acc: 79.34%
+  Train L1: 85.24% | Train L2: 77.48% | Train L3: 72.45%
+  Val L1:   83.95% | Val L2:   79.53% | Val L3:   74.53%
+  [Patience: 0/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [283/10000] Train Loss: 1.3497 | Val Loss: 1.3262
+  Train Acc: 78.42% | Val Acc: 79.60%
+  Train L1: 85.23% | Train L2: 77.53% | Train L3: 72.49%
+  Val L1:   84.54% | Val L2:   79.58% | Val L3:   74.67%
+  [Patience: 1/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [284/10000] Train Loss: 1.3500 | Val Loss: 1.3272
+  Train Acc: 78.43% | Val Acc: 79.08%
+  Train L1: 85.23% | Train L2: 77.59% | Train L3: 72.47%
+  Val L1:   82.94% | Val L2:   79.83% | Val L3:   74.46%
+  [Patience: 2/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [285/10000] Train Loss: 1.3512 | Val Loss: 1.3345
+  Train Acc: 78.37% | Val Acc: 79.75%
+  Train L1: 85.08% | Train L2: 77.56% | Train L3: 72.48%
+  Val L1:   85.09% | Val L2:   79.62% | Val L3:   74.54%
+  [Patience: 3/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [286/10000] Train Loss: 1.3495 | Val Loss: 1.3277
+  Train Acc: 78.42% | Val Acc: 79.56%
+  Train L1: 85.16% | Train L2: 77.62% | Train L3: 72.50%
+  Val L1:   84.52% | Val L2:   79.68% | Val L3:   74.48%
+  [Patience: 4/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [287/10000] Train Loss: 1.3506 | Val Loss: 1.3203
+  Train Acc: 78.41% | Val Acc: 79.57%
+  Train L1: 85.13% | Train L2: 77.59% | Train L3: 72.52%
+  Val L1:   84.26% | Val L2:   79.78% | Val L3:   74.67%
+  [Patience: 5/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3203)
+Epoch [288/10000] Train Loss: 1.3495 | Val Loss: 1.3286
+  Train Acc: 78.42% | Val Acc: 79.59%
+  Train L1: 85.12% | Train L2: 77.60% | Train L3: 72.55%
+  Val L1:   84.44% | Val L2:   79.77% | Val L3:   74.56%
+  [Patience: 0/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [289/10000] Train Loss: 1.3483 | Val Loss: 1.3265
+  Train Acc: 78.44% | Val Acc: 79.42%
+  Train L1: 85.16% | Train L2: 77.62% | Train L3: 72.53%
+  Val L1:   84.14% | Val L2:   79.53% | Val L3:   74.60%
+  [Patience: 1/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [290/10000] Train Loss: 1.3479 | Val Loss: 1.3294
+  Train Acc: 78.46% | Val Acc: 79.75%
+  Train L1: 85.16% | Train L2: 77.65% | Train L3: 72.57%
+  Val L1:   85.11% | Val L2:   79.82% | Val L3:   74.31%
+  [Patience: 2/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [291/10000] Train Loss: 1.3476 | Val Loss: 1.3278
+  Train Acc: 78.43% | Val Acc: 79.79%
+  Train L1: 85.12% | Train L2: 77.64% | Train L3: 72.53%
+  Val L1:   84.90% | Val L2:   79.72% | Val L3:   74.76%
+  [Patience: 3/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [292/10000] Train Loss: 1.3472 | Val Loss: 1.3307
+  Train Acc: 78.45% | Val Acc: 79.14%
+  Train L1: 85.18% | Train L2: 77.62% | Train L3: 72.54%
+  Val L1:   83.27% | Val L2:   79.54% | Val L3:   74.62%
+  [Patience: 4/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [293/10000] Train Loss: 1.3471 | Val Loss: 1.3252
+  Train Acc: 78.44% | Val Acc: 79.75%
+  Train L1: 85.10% | Train L2: 77.62% | Train L3: 72.58%
+  Val L1:   84.96% | Val L2:   79.77% | Val L3:   74.51%
+  [Patience: 5/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [294/10000] Train Loss: 1.3474 | Val Loss: 1.3243
+  Train Acc: 78.44% | Val Acc: 79.48%
+  Train L1: 85.10% | Train L2: 77.68% | Train L3: 72.55%
+  Val L1:   84.18% | Val L2:   79.60% | Val L3:   74.65%
+  [Patience: 6/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [295/10000] Train Loss: 1.3459 | Val Loss: 1.3297
+  Train Acc: 78.49% | Val Acc: 79.53%
+  Train L1: 85.19% | Train L2: 77.67% | Train L3: 72.61%
+  Val L1:   84.53% | Val L2:   79.55% | Val L3:   74.50%
+  [Patience: 7/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [296/10000] Train Loss: 1.3479 | Val Loss: 1.3219
+  Train Acc: 78.44% | Val Acc: 79.55%
+  Train L1: 85.05% | Train L2: 77.67% | Train L3: 72.59%
+  Val L1:   84.25% | Val L2:   79.64% | Val L3:   74.75%
+  [Patience: 8/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [297/10000] Train Loss: 1.3466 | Val Loss: 1.3292
+  Train Acc: 78.49% | Val Acc: 79.66%
+  Train L1: 85.18% | Train L2: 77.68% | Train L3: 72.62%
+  Val L1:   84.62% | Val L2:   79.64% | Val L3:   74.71%
+  [Patience: 9/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+
+>>> Patience reached (10). Reloading best model from checkpoint_best_eth_cnn.pth...
+    Restored best_loss to: 1.3203
+>>> Refreshing Training Data... (change #1/3)
+Epoch [298/10000] Train Loss: 1.3489 | Val Loss: 1.3223
+  Train Acc: 78.40% | Val Acc: 79.15%
+  Train L1: 85.14% | Train L2: 77.55% | Train L3: 72.52%
+  Val L1:   83.33% | Val L2:   79.46% | Val L3:   74.66%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [299/10000] Train Loss: 1.3489 | Val Loss: 1.3352
+  Train Acc: 78.43% | Val Acc: 79.62%
+  Train L1: 85.14% | Train L2: 77.63% | Train L3: 72.54%
+  Val L1:   84.78% | Val L2:   79.67% | Val L3:   74.40%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [300/10000] Train Loss: 1.3483 | Val Loss: 1.3291
+  Train Acc: 78.46% | Val Acc: 79.78%
+  Train L1: 85.23% | Train L2: 77.62% | Train L3: 72.54%
+  Val L1:   85.13% | Val L2:   79.58% | Val L3:   74.61%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Plots saved to 'training_plots' folder for epoch 300
+ Checkpoint auto-saved at epoch 300 
+Epoch [301/10000] Train Loss: 1.3490 | Val Loss: 1.3256
+  Train Acc: 78.43% | Val Acc: 79.21%
+  Train L1: 85.14% | Train L2: 77.61% | Train L3: 72.55%
+  Val L1:   83.37% | Val L2:   79.43% | Val L3:   74.82%
+  [Patience: 3/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [302/10000] Train Loss: 1.3471 | Val Loss: 1.3217
+  Train Acc: 78.42% | Val Acc: 78.97%
+  Train L1: 85.05% | Train L2: 77.67% | Train L3: 72.54%
+  Val L1:   82.32% | Val L2:   79.92% | Val L3:   74.65%
+  [Patience: 4/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [303/10000] Train Loss: 1.3463 | Val Loss: 1.3236
+  Train Acc: 78.43% | Val Acc: 79.23%
+  Train L1: 85.01% | Train L2: 77.69% | Train L3: 72.59%
+  Val L1:   83.47% | Val L2:   79.56% | Val L3:   74.68%
+  [Patience: 5/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [304/10000] Train Loss: 1.3464 | Val Loss: 1.3286
+  Train Acc: 78.47% | Val Acc: 79.98%
+  Train L1: 85.14% | Train L2: 77.66% | Train L3: 72.62%
+  Val L1:   85.54% | Val L2:   79.75% | Val L3:   74.64%
+  [Patience: 6/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [305/10000] Train Loss: 1.3465 | Val Loss: 1.3269
+  Train Acc: 78.44% | Val Acc: 79.56%
+  Train L1: 85.08% | Train L2: 77.64% | Train L3: 72.59%
+  Val L1:   84.44% | Val L2:   79.58% | Val L3:   74.67%
+  [Patience: 7/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [306/10000] Train Loss: 1.3460 | Val Loss: 1.3207
+  Train Acc: 78.42% | Val Acc: 79.69%
+  Train L1: 84.95% | Train L2: 77.69% | Train L3: 72.62%
+  Val L1:   84.74% | Val L2:   79.70% | Val L3:   74.63%
+  [Patience: 8/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [307/10000] Train Loss: 1.3473 | Val Loss: 1.3181
+  Train Acc: 78.46% | Val Acc: 79.40%
+  Train L1: 85.06% | Train L2: 77.68% | Train L3: 72.64%
+  Val L1:   83.77% | Val L2:   79.53% | Val L3:   74.89%
+  [Patience: 9/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3181)
+Epoch [308/10000] Train Loss: 1.3453 | Val Loss: 1.3239
+  Train Acc: 78.50% | Val Acc: 79.14%
+  Train L1: 85.20% | Train L2: 77.66% | Train L3: 72.65%
+  Val L1:   83.14% | Val L2:   79.64% | Val L3:   74.63%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [309/10000] Train Loss: 1.3455 | Val Loss: 1.3256
+  Train Acc: 78.51% | Val Acc: 79.17%
+  Train L1: 85.16% | Train L2: 77.76% | Train L3: 72.63%
+  Val L1:   82.91% | Val L2:   79.73% | Val L3:   74.85%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [310/10000] Train Loss: 1.3436 | Val Loss: 1.3257
+  Train Acc: 78.50% | Val Acc: 79.40%
+  Train L1: 85.06% | Train L2: 77.78% | Train L3: 72.66%
+  Val L1:   83.77% | Val L2:   79.53% | Val L3:   74.90%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [311/10000] Train Loss: 1.3445 | Val Loss: 1.3205
+  Train Acc: 78.51% | Val Acc: 79.88%
+  Train L1: 85.10% | Train L2: 77.75% | Train L3: 72.69%
+  Val L1:   84.96% | Val L2:   79.91% | Val L3:   74.78%
+  [Patience: 3/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [312/10000] Train Loss: 1.3439 | Val Loss: 1.3283
+  Train Acc: 78.52% | Val Acc: 79.65%
+  Train L1: 85.11% | Train L2: 77.74% | Train L3: 72.70%
+  Val L1:   84.54% | Val L2:   79.67% | Val L3:   74.73%
+  [Patience: 4/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [313/10000] Train Loss: 1.3433 | Val Loss: 1.3283
+  Train Acc: 78.51% | Val Acc: 79.51%
+  Train L1: 85.08% | Train L2: 77.75% | Train L3: 72.71%
+  Val L1:   84.05% | Val L2:   79.62% | Val L3:   74.85%
+  [Patience: 5/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [314/10000] Train Loss: 1.3433 | Val Loss: 1.3128
+  Train Acc: 78.53% | Val Acc: 79.36%
+  Train L1: 85.09% | Train L2: 77.78% | Train L3: 72.73%
+  Val L1:   83.36% | Val L2:   79.70% | Val L3:   75.03%
+  [Patience: 6/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3128)
+Epoch [315/10000] Train Loss: 1.3436 | Val Loss: 1.3204
+  Train Acc: 78.50% | Val Acc: 79.84%
+  Train L1: 85.04% | Train L2: 77.75% | Train L3: 72.71%
+  Val L1:   85.01% | Val L2:   79.56% | Val L3:   74.95%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [316/10000] Train Loss: 1.3432 | Val Loss: 1.3170
+  Train Acc: 78.52% | Val Acc: 79.44%
+  Train L1: 85.00% | Train L2: 77.81% | Train L3: 72.74%
+  Val L1:   83.45% | Val L2:   79.81% | Val L3:   75.08%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [317/10000] Train Loss: 1.3416 | Val Loss: 1.3216
+  Train Acc: 78.53% | Val Acc: 79.69%
+  Train L1: 85.05% | Train L2: 77.82% | Train L3: 72.72%
+  Val L1:   84.29% | Val L2:   79.72% | Val L3:   75.07%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [318/10000] Train Loss: 1.3406 | Val Loss: 1.3149
+  Train Acc: 78.59% | Val Acc: 79.73%
+  Train L1: 85.14% | Train L2: 77.83% | Train L3: 72.80%
+  Val L1:   84.67% | Val L2:   79.61% | Val L3:   74.90%
+  [Patience: 3/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [319/10000] Train Loss: 1.3413 | Val Loss: 1.3208
+  Train Acc: 78.56% | Val Acc: 79.88%
+  Train L1: 85.07% | Train L2: 77.82% | Train L3: 72.78%
+  Val L1:   84.68% | Val L2:   80.10% | Val L3:   74.84%
+  [Patience: 4/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [320/10000] Train Loss: 1.3420 | Val Loss: 1.3133
+  Train Acc: 78.52% | Val Acc: 79.39%
+  Train L1: 85.01% | Train L2: 77.79% | Train L3: 72.76%
+  Val L1:   83.30% | Val L2:   80.04% | Val L3:   74.84%
+  [Patience: 5/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [321/10000] Train Loss: 1.3413 | Val Loss: 1.3242
+  Train Acc: 78.58% | Val Acc: 79.75%
+  Train L1: 85.09% | Train L2: 77.82% | Train L3: 72.84%
+  Val L1:   84.51% | Val L2:   79.83% | Val L3:   74.91%
+  [Patience: 6/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [322/10000] Train Loss: 1.3413 | Val Loss: 1.3384
+  Train Acc: 78.59% | Val Acc: 80.08%
+  Train L1: 85.17% | Train L2: 77.80% | Train L3: 72.81%
+  Val L1:   85.99% | Val L2:   79.75% | Val L3:   74.50%
+  [Patience: 7/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [323/10000] Train Loss: 1.3396 | Val Loss: 1.3166
+  Train Acc: 78.58% | Val Acc: 79.53%
+  Train L1: 85.09% | Train L2: 77.81% | Train L3: 72.82%
+  Val L1:   83.61% | Val L2:   79.79% | Val L3:   75.18%
+  [Patience: 8/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [324/10000] Train Loss: 1.3405 | Val Loss: 1.3166
+  Train Acc: 78.56% | Val Acc: 79.31%
+  Train L1: 84.99% | Train L2: 77.89% | Train L3: 72.80%
+  Val L1:   83.09% | Val L2:   79.62% | Val L3:   75.21%
+  [Patience: 9/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+
+>>> Patience reached (10). Reloading best model from checkpoint_best_eth_cnn.pth...
+    Restored best_loss to: 1.3128
+>>> Refreshing Training Data... (change #2/3)
+
+>>> 3 training shuffles exhausted. Refreshing VALIDATION dataset... (shuffle #1)
+Epoch [325/10000] Train Loss: 1.3442 | Val Loss: 1.3254
+  Train Acc: 78.49% | Val Acc: 79.78%
+  Train L1: 85.01% | Train L2: 77.79% | Train L3: 72.68%
+  Val L1:   84.65% | Val L2:   79.80% | Val L3:   74.87%
+  [Patience: 0/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [326/10000] Train Loss: 1.3419 | Val Loss: 1.3239
+  Train Acc: 78.54% | Val Acc: 79.73%
+  Train L1: 85.12% | Train L2: 77.81% | Train L3: 72.71%
+  Val L1:   84.67% | Val L2:   79.82% | Val L3:   74.69%
+  [Patience: 1/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [327/10000] Train Loss: 1.3426 | Val Loss: 1.3199
+  Train Acc: 78.55% | Val Acc: 79.00%
+  Train L1: 85.11% | Train L2: 77.75% | Train L3: 72.78%
+  Val L1:   82.23% | Val L2:   79.84% | Val L3:   74.92%
+  [Patience: 2/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [328/10000] Train Loss: 1.3414 | Val Loss: 1.3310
+  Train Acc: 78.53% | Val Acc: 79.97%
+  Train L1: 85.00% | Train L2: 77.80% | Train L3: 72.78%
+  Val L1:   85.56% | Val L2:   79.46% | Val L3:   74.89%
+  [Patience: 3/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [329/10000] Train Loss: 1.3413 | Val Loss: 1.3188
+  Train Acc: 78.55% | Val Acc: 79.89%
+  Train L1: 85.05% | Train L2: 77.82% | Train L3: 72.78%
+  Val L1:   84.89% | Val L2:   79.73% | Val L3:   75.04%
+  [Patience: 4/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [330/10000] Train Loss: 1.3413 | Val Loss: 1.3225
+  Train Acc: 78.55% | Val Acc: 79.21%
+  Train L1: 85.03% | Train L2: 77.84% | Train L3: 72.78%
+  Val L1:   83.19% | Val L2:   79.55% | Val L3:   74.88%
+  [Patience: 5/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [331/10000] Train Loss: 1.3414 | Val Loss: 1.3214
+  Train Acc: 78.55% | Val Acc: 80.07%
+  Train L1: 85.03% | Train L2: 77.86% | Train L3: 72.75%
+  Val L1:   85.35% | Val L2:   79.95% | Val L3:   74.90%
+  [Patience: 6/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [332/10000] Train Loss: 1.3412 | Val Loss: 1.3193
+  Train Acc: 78.55% | Val Acc: 80.04%
+  Train L1: 85.07% | Train L2: 77.78% | Train L3: 72.80%
+  Val L1:   85.12% | Val L2:   79.86% | Val L3:   75.13%
+  [Patience: 7/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [333/10000] Train Loss: 1.3404 | Val Loss: 1.3168
+  Train Acc: 78.56% | Val Acc: 79.15%
+  Train L1: 85.00% | Train L2: 77.84% | Train L3: 72.84%
+  Val L1:   82.87% | Val L2:   79.72% | Val L3:   74.87%
+  [Patience: 8/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [334/10000] Train Loss: 1.3387 | Val Loss: 1.3211
+  Train Acc: 78.61% | Val Acc: 79.72%
+  Train L1: 85.12% | Train L2: 77.87% | Train L3: 72.85%
+  Val L1:   84.41% | Val L2:   79.78% | Val L3:   74.96%
+  [Patience: 9/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+
+>>> Patience reached (10). Reloading best model from checkpoint_best_eth_cnn.pth...
+    Restored best_loss to: 1.3128
+>>> Refreshing Training Data... (change #1/3)
+Epoch [335/10000] Train Loss: 1.3435 | Val Loss: 1.3223
+  Train Acc: 78.51% | Val Acc: 79.65%
+  Train L1: 85.01% | Train L2: 77.80% | Train L3: 72.74%
+  Val L1:   84.28% | Val L2:   79.90% | Val L3:   74.79%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 1]
+Epoch [336/10000] Train Loss: 1.3421 | Val Loss: 1.3105
+  Train Acc: 78.53% | Val Acc: 79.85%
+  Train L1: 85.12% | Train L2: 77.76% | Train L3: 72.72%
+  Val L1:   84.38% | Val L2:   79.99% | Val L3:   75.18%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 1]
+   New Best Model saved! (Loss: 1.3105)
+Epoch [337/10000] Train Loss: 1.3416 | Val Loss: 1.3108
+  Train Acc: 78.54% | Val Acc: 79.37%
+  Train L1: 85.08% | Train L2: 77.79% | Train L3: 72.75%
+  Val L1:   83.27% | Val L2:   79.82% | Val L3:   75.03%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [338/10000] Train Loss: 1.3425 | Val Loss: 1.3201
+  Train Acc: 78.52% | Val Acc: 79.29%
+  Train L1: 85.05% | Train L2: 77.76% | Train L3: 72.74%
+  Val L1:   83.05% | Val L2:   79.77% | Val L3:   75.06%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [339/10000] Train Loss: 1.3423 | Val Loss: 1.3209
+  Train Acc: 78.55% | Val Acc: 79.76%
+  Train L1: 85.11% | Train L2: 77.80% | Train L3: 72.74%
+  Val L1:   84.57% | Val L2:   79.77% | Val L3:   74.93%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [340/10000] Train Loss: 1.3420 | Val Loss: 1.3201
+  Train Acc: 78.53% | Val Acc: 79.85%
+  Train L1: 84.97% | Train L2: 77.85% | Train L3: 72.76%
+  Val L1:   84.59% | Val L2:   80.00% | Val L3:   74.96%
+  [Patience: 3/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [341/10000] Train Loss: 1.3404 | Val Loss: 1.3198
+  Train Acc: 78.58% | Val Acc: 79.16%
+  Train L1: 85.10% | Train L2: 77.85% | Train L3: 72.81%
+  Val L1:   82.93% | Val L2:   79.64% | Val L3:   74.91%
+  [Patience: 4/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [342/10000] Train Loss: 1.3411 | Val Loss: 1.3237
+  Train Acc: 78.55% | Val Acc: 79.67%
+  Train L1: 85.03% | Train L2: 77.84% | Train L3: 72.79%
+  Val L1:   84.62% | Val L2:   79.59% | Val L3:   74.79%
+  [Patience: 5/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [343/10000] Train Loss: 1.3403 | Val Loss: 1.3175
+  Train Acc: 78.56% | Val Acc: 79.66%
+  Train L1: 85.02% | Train L2: 77.85% | Train L3: 72.80%
+  Val L1:   84.00% | Val L2:   79.95% | Val L3:   75.03%
+  [Patience: 6/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [344/10000] Train Loss: 1.3398 | Val Loss: 1.3219
+  Train Acc: 78.56% | Val Acc: 79.71%
+  Train L1: 84.96% | Train L2: 77.90% | Train L3: 72.83%
+  Val L1:   84.36% | Val L2:   79.71% | Val L3:   75.06%
+  [Patience: 7/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [345/10000] Train Loss: 1.3394 | Val Loss: 1.3124
+  Train Acc: 78.57% | Val Acc: 79.30%
+  Train L1: 85.01% | Train L2: 77.89% | Train L3: 72.81%
+  Val L1:   83.06% | Val L2:   79.69% | Val L3:   75.15%
+  [Patience: 8/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [346/10000] Train Loss: 1.3400 | Val Loss: 1.3081
+  Train Acc: 78.54% | Val Acc: 79.32%
+  Train L1: 84.93% | Train L2: 77.87% | Train L3: 72.80%
+  Val L1:   82.90% | Val L2:   79.88% | Val L3:   75.19%
+  [Patience: 9/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3081)
+Epoch [347/10000] Train Loss: 1.3390 | Val Loss: 1.3189
+  Train Acc: 78.60% | Val Acc: 79.10%
+  Train L1: 85.11% | Train L2: 77.85% | Train L3: 72.84%
+  Val L1:   82.69% | Val L2:   79.66% | Val L3:   74.95%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [348/10000] Train Loss: 1.3382 | Val Loss: 1.3165
+  Train Acc: 78.61% | Val Acc: 79.16%
+  Train L1: 85.04% | Train L2: 77.90% | Train L3: 72.90%
+  Val L1:   82.37% | Val L2:   80.05% | Val L3:   75.07%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [349/10000] Train Loss: 1.3393 | Val Loss: 1.3191
+  Train Acc: 78.59% | Val Acc: 79.91%
+  Train L1: 84.98% | Train L2: 77.92% | Train L3: 72.86%
+  Val L1:   85.15% | Val L2:   79.74% | Val L3:   74.84%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [350/10000] Train Loss: 1.3379 | Val Loss: 1.3148
+  Train Acc: 78.61% | Val Acc: 79.59%
+  Train L1: 85.04% | Train L2: 77.90% | Train L3: 72.88%
+  Val L1:   83.85% | Val L2:   79.78% | Val L3:   75.14%
+  [Patience: 3/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+ Checkpoint auto-saved at epoch 350 
+Epoch [351/10000] Train Loss: 1.3359 | Val Loss: 1.3171
+  Train Acc: 78.64% | Val Acc: 79.98%
+  Train L1: 85.08% | Train L2: 77.93% | Train L3: 72.91%
+  Val L1:   84.76% | Val L2:   79.95% | Val L3:   75.23%
+  [Patience: 4/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [352/10000] Train Loss: 1.3351 | Val Loss: 1.3082
+  Train Acc: 78.66% | Val Acc: 79.74%
+  Train L1: 85.11% | Train L2: 77.94% | Train L3: 72.94%
+  Val L1:   84.19% | Val L2:   79.81% | Val L3:   75.22%
+  [Patience: 5/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [353/10000] Train Loss: 1.3361 | Val Loss: 1.3162
+  Train Acc: 78.64% | Val Acc: 80.10%
+  Train L1: 85.06% | Train L2: 77.94% | Train L3: 72.93%
+  Val L1:   85.29% | Val L2:   79.92% | Val L3:   75.09%
+  [Patience: 6/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [354/10000] Train Loss: 1.3375 | Val Loss: 1.3079
+  Train Acc: 78.62% | Val Acc: 79.63%
+  Train L1: 84.96% | Train L2: 77.97% | Train L3: 72.92%
+  Val L1:   83.80% | Val L2:   80.02% | Val L3:   75.08%
+  [Patience: 7/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3079)
+Epoch [355/10000] Train Loss: 1.3364 | Val Loss: 1.3141
+  Train Acc: 78.63% | Val Acc: 79.95%
+  Train L1: 84.91% | Train L2: 78.00% | Train L3: 72.99%
+  Val L1:   84.73% | Val L2:   80.02% | Val L3:   75.10%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [356/10000] Train Loss: 1.3366 | Val Loss: 1.3094
+  Train Acc: 78.64% | Val Acc: 79.62%
+  Train L1: 85.03% | Train L2: 77.97% | Train L3: 72.93%
+  Val L1:   83.60% | Val L2:   79.89% | Val L3:   75.38%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [357/10000] Train Loss: 1.3352 | Val Loss: 1.3051
+  Train Acc: 78.63% | Val Acc: 79.65%
+  Train L1: 84.99% | Train L2: 77.96% | Train L3: 72.93%
+  Val L1:   83.53% | Val L2:   80.00% | Val L3:   75.41%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3051)
+Epoch [358/10000] Train Loss: 1.3345 | Val Loss: 1.3120
+  Train Acc: 78.72% | Val Acc: 79.80%
+  Train L1: 85.13% | Train L2: 78.02% | Train L3: 73.01%
+  Val L1:   84.17% | Val L2:   79.98% | Val L3:   75.24%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [359/10000] Train Loss: 1.3346 | Val Loss: 1.3074
+  Train Acc: 78.72% | Val Acc: 80.01%
+  Train L1: 85.16% | Train L2: 78.01% | Train L3: 72.99%
+  Val L1:   84.66% | Val L2:   79.96% | Val L3:   75.43%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [360/10000] Train Loss: 1.3344 | Val Loss: 1.3051
+  Train Acc: 78.70% | Val Acc: 79.92%
+  Train L1: 85.05% | Train L2: 78.03% | Train L3: 73.01%
+  Val L1:   84.24% | Val L2:   80.26% | Val L3:   75.26%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3051)
+Epoch [361/10000] Train Loss: 1.3349 | Val Loss: 1.3083
+  Train Acc: 78.64% | Val Acc: 79.70%
+  Train L1: 84.91% | Train L2: 77.98% | Train L3: 73.02%
+  Val L1:   83.84% | Val L2:   80.16% | Val L3:   75.10%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [362/10000] Train Loss: 1.3333 | Val Loss: 1.3140
+  Train Acc: 78.73% | Val Acc: 79.75%
+  Train L1: 85.07% | Train L2: 78.09% | Train L3: 73.03%
+  Val L1:   83.93% | Val L2:   80.24% | Val L3:   75.10%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [363/10000] Train Loss: 1.3333 | Val Loss: 1.3067
+  Train Acc: 78.68% | Val Acc: 79.59%
+  Train L1: 84.99% | Train L2: 78.02% | Train L3: 73.03%
+  Val L1:   83.40% | Val L2:   80.16% | Val L3:   75.20%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [364/10000] Train Loss: 1.3311 | Val Loss: 1.3074
+  Train Acc: 78.74% | Val Acc: 79.74%
+  Train L1: 85.05% | Train L2: 78.08% | Train L3: 73.10%
+  Val L1:   83.63% | Val L2:   80.05% | Val L3:   75.55%
+  [Patience: 3/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [365/10000] Train Loss: 1.3316 | Val Loss: 1.3047
+  Train Acc: 78.73% | Val Acc: 79.61%
+  Train L1: 84.95% | Train L2: 78.13% | Train L3: 73.12%
+  Val L1:   83.44% | Val L2:   79.98% | Val L3:   75.41%
+  [Patience: 4/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3047)
+Epoch [366/10000] Train Loss: 1.3309 | Val Loss: 1.3091
+  Train Acc: 78.72% | Val Acc: 79.44%
+  Train L1: 84.95% | Train L2: 78.11% | Train L3: 73.10%
+  Val L1:   83.06% | Val L2:   79.94% | Val L3:   75.30%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [367/10000] Train Loss: 1.3324 | Val Loss: 1.3042
+  Train Acc: 78.72% | Val Acc: 79.70%
+  Train L1: 84.98% | Train L2: 78.10% | Train L3: 73.07%
+  Val L1:   83.58% | Val L2:   80.09% | Val L3:   75.44%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3042)
+Epoch [368/10000] Train Loss: 1.3310 | Val Loss: 1.3031
+  Train Acc: 78.71% | Val Acc: 79.78%
+  Train L1: 84.90% | Train L2: 78.12% | Train L3: 73.12%
+  Val L1:   83.79% | Val L2:   80.14% | Val L3:   75.40%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3031)
+Epoch [369/10000] Train Loss: 1.3310 | Val Loss: 1.3084
+  Train Acc: 78.73% | Val Acc: 79.88%
+  Train L1: 84.93% | Train L2: 78.12% | Train L3: 73.15%
+  Val L1:   84.07% | Val L2:   80.14% | Val L3:   75.41%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [370/10000] Train Loss: 1.3304 | Val Loss: 1.3128
+  Train Acc: 78.72% | Val Acc: 80.05%
+  Train L1: 84.88% | Train L2: 78.13% | Train L3: 73.14%
+  Val L1:   84.66% | Val L2:   80.06% | Val L3:   75.44%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [371/10000] Train Loss: 1.3310 | Val Loss: 1.3057
+  Train Acc: 78.77% | Val Acc: 80.07%
+  Train L1: 85.14% | Train L2: 78.09% | Train L3: 73.08%
+  Val L1:   84.70% | Val L2:   80.16% | Val L3:   75.35%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [372/10000] Train Loss: 1.3305 | Val Loss: 1.3108
+  Train Acc: 78.77% | Val Acc: 79.69%
+  Train L1: 85.03% | Train L2: 78.13% | Train L3: 73.14%
+  Val L1:   83.57% | Val L2:   80.09% | Val L3:   75.41%
+  [Patience: 3/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [373/10000] Train Loss: 1.3299 | Val Loss: 1.3064
+  Train Acc: 78.77% | Val Acc: 79.45%
+  Train L1: 85.05% | Train L2: 78.11% | Train L3: 73.14%
+  Val L1:   82.65% | Val L2:   80.17% | Val L3:   75.54%
+  [Patience: 4/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [374/10000] Train Loss: 1.3301 | Val Loss: 1.3107
+  Train Acc: 78.72% | Val Acc: 79.83%
+  Train L1: 84.85% | Train L2: 78.14% | Train L3: 73.18%
+  Val L1:   83.94% | Val L2:   80.18% | Val L3:   75.38%
+  [Patience: 5/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [375/10000] Train Loss: 1.3300 | Val Loss: 1.3019
+  Train Acc: 78.76% | Val Acc: 80.07%
+  Train L1: 84.95% | Train L2: 78.15% | Train L3: 73.17%
+  Val L1:   84.57% | Val L2:   80.18% | Val L3:   75.47%
+  [Patience: 6/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3019)
+Epoch [376/10000] Train Loss: 1.3291 | Val Loss: 1.3060
+  Train Acc: 78.81% | Val Acc: 79.86%
+  Train L1: 85.05% | Train L2: 78.15% | Train L3: 73.22%
+  Val L1:   84.08% | Val L2:   80.01% | Val L3:   75.49%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [377/10000] Train Loss: 1.3292 | Val Loss: 1.3128
+  Train Acc: 78.74% | Val Acc: 80.03%
+  Train L1: 84.86% | Train L2: 78.17% | Train L3: 73.19%
+  Val L1:   84.89% | Val L2:   80.08% | Val L3:   75.11%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [378/10000] Train Loss: 1.3267 | Val Loss: 1.3008
+  Train Acc: 78.79% | Val Acc: 79.40%
+  Train L1: 84.96% | Train L2: 78.18% | Train L3: 73.21%
+  Val L1:   82.36% | Val L2:   80.18% | Val L3:   75.65%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.3008)
+Epoch [379/10000] Train Loss: 1.3278 | Val Loss: 1.3016
+  Train Acc: 78.80% | Val Acc: 79.92%
+  Train L1: 84.99% | Train L2: 78.17% | Train L3: 73.24%
+  Val L1:   84.03% | Val L2:   80.29% | Val L3:   75.45%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [380/10000] Train Loss: 1.3272 | Val Loss: 1.2993
+  Train Acc: 78.80% | Val Acc: 79.92%
+  Train L1: 84.94% | Train L2: 78.23% | Train L3: 73.22%
+  Val L1:   83.86% | Val L2:   80.37% | Val L3:   75.51%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.2993)
+Epoch [381/10000] Train Loss: 1.3269 | Val Loss: 1.3012
+  Train Acc: 78.81% | Val Acc: 79.94%
+  Train L1: 84.90% | Train L2: 78.24% | Train L3: 73.29%
+  Val L1:   83.95% | Val L2:   80.23% | Val L3:   75.64%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [382/10000] Train Loss: 1.3287 | Val Loss: 1.3049
+  Train Acc: 78.77% | Val Acc: 80.02%
+  Train L1: 84.83% | Train L2: 78.26% | Train L3: 73.20%
+  Val L1:   84.34% | Val L2:   80.30% | Val L3:   75.43%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [383/10000] Train Loss: 1.3263 | Val Loss: 1.2953
+  Train Acc: 78.82% | Val Acc: 79.66%
+  Train L1: 84.92% | Train L2: 78.27% | Train L3: 73.26%
+  Val L1:   83.10% | Val L2:   80.18% | Val L3:   75.71%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.2953)
+Epoch [384/10000] Train Loss: 1.3258 | Val Loss: 1.3039
+  Train Acc: 78.84% | Val Acc: 80.01%
+  Train L1: 84.99% | Train L2: 78.24% | Train L3: 73.29%
+  Val L1:   84.07% | Val L2:   80.27% | Val L3:   75.68%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [385/10000] Train Loss: 1.3240 | Val Loss: 1.3026
+  Train Acc: 78.85% | Val Acc: 80.02%
+  Train L1: 84.98% | Train L2: 78.27% | Train L3: 73.30%
+  Val L1:   84.10% | Val L2:   80.33% | Val L3:   75.63%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [386/10000] Train Loss: 1.3259 | Val Loss: 1.3042
+  Train Acc: 78.85% | Val Acc: 79.70%
+  Train L1: 84.96% | Train L2: 78.25% | Train L3: 73.33%
+  Val L1:   83.20% | Val L2:   80.32% | Val L3:   75.59%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [387/10000] Train Loss: 1.3255 | Val Loss: 1.2990
+  Train Acc: 78.83% | Val Acc: 80.05%
+  Train L1: 84.92% | Train L2: 78.30% | Train L3: 73.27%
+  Val L1:   84.09% | Val L2:   80.43% | Val L3:   75.63%
+  [Patience: 3/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [388/10000] Train Loss: 1.3242 | Val Loss: 1.2997
+  Train Acc: 78.84% | Val Acc: 79.80%
+  Train L1: 84.92% | Train L2: 78.28% | Train L3: 73.32%
+  Val L1:   83.62% | Val L2:   80.25% | Val L3:   75.54%
+  [Patience: 4/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [389/10000] Train Loss: 1.3245 | Val Loss: 1.3016
+  Train Acc: 78.85% | Val Acc: 79.57%
+  Train L1: 84.90% | Train L2: 78.30% | Train L3: 73.36%
+  Val L1:   83.07% | Val L2:   80.09% | Val L3:   75.56%
+  [Patience: 5/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [390/10000] Train Loss: 1.3249 | Val Loss: 1.3138
+  Train Acc: 78.83% | Val Acc: 80.29%
+  Train L1: 84.84% | Train L2: 78.32% | Train L3: 73.35%
+  Val L1:   85.30% | Val L2:   79.95% | Val L3:   75.61%
+  [Patience: 6/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [391/10000] Train Loss: 1.3240 | Val Loss: 1.3035
+  Train Acc: 78.88% | Val Acc: 80.13%
+  Train L1: 85.00% | Train L2: 78.32% | Train L3: 73.32%
+  Val L1:   84.21% | Val L2:   80.40% | Val L3:   75.76%
+  [Patience: 7/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [392/10000] Train Loss: 1.3244 | Val Loss: 1.3013
+  Train Acc: 78.80% | Val Acc: 80.03%
+  Train L1: 84.81% | Train L2: 78.26% | Train L3: 73.33%
+  Val L1:   83.94% | Val L2:   80.31% | Val L3:   75.83%
+  [Patience: 8/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [393/10000] Train Loss: 1.3234 | Val Loss: 1.2995
+  Train Acc: 78.85% | Val Acc: 80.33%
+  Train L1: 84.87% | Train L2: 78.33% | Train L3: 73.34%
+  Val L1:   85.15% | Val L2:   80.33% | Val L3:   75.52%
+  [Patience: 9/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+
+>>> Patience reached (10). Reloading best model from checkpoint_best_eth_cnn.pth...
+    Restored best_loss to: 1.2953
+>>> Refreshing Training Data... (change #2/3)
+
+>>> 3 training shuffles exhausted. Refreshing VALIDATION dataset... (shuffle #1)
+Epoch [394/10000] Train Loss: 1.3258 | Val Loss: 1.3161
+  Train Acc: 78.82% | Val Acc: 80.19%
+  Train L1: 84.91% | Train L2: 78.28% | Train L3: 73.27%
+  Val L1:   85.11% | Val L2:   79.98% | Val L3:   75.48%
+  [Patience: 0/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [395/10000] Train Loss: 1.3252 | Val Loss: 1.2958
+  Train Acc: 78.84% | Val Acc: 79.83%
+  Train L1: 84.86% | Train L2: 78.33% | Train L3: 73.33%
+  Val L1:   83.42% | Val L2:   80.21% | Val L3:   75.87%
+  [Patience: 1/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [396/10000] Train Loss: 1.3245 | Val Loss: 1.3003
+  Train Acc: 78.84% | Val Acc: 80.02%
+  Train L1: 84.93% | Train L2: 78.26% | Train L3: 73.33%
+  Val L1:   84.16% | Val L2:   80.21% | Val L3:   75.69%
+  [Patience: 2/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [397/10000] Train Loss: 1.3249 | Val Loss: 1.3030
+  Train Acc: 78.86% | Val Acc: 80.16%
+  Train L1: 84.96% | Train L2: 78.28% | Train L3: 73.32%
+  Val L1:   84.61% | Val L2:   80.19% | Val L3:   75.69%
+  [Patience: 3/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [398/10000] Train Loss: 1.3236 | Val Loss: 1.3040
+  Train Acc: 78.89% | Val Acc: 79.94%
+  Train L1: 85.04% | Train L2: 78.32% | Train L3: 73.33%
+  Val L1:   83.99% | Val L2:   80.23% | Val L3:   75.59%
+  [Patience: 4/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [399/10000] Train Loss: 1.3257 | Val Loss: 1.3089
+  Train Acc: 78.84% | Val Acc: 80.11%
+  Train L1: 84.91% | Train L2: 78.31% | Train L3: 73.30%
+  Val L1:   84.89% | Val L2:   80.15% | Val L3:   75.30%
+  [Patience: 5/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [400/10000] Train Loss: 1.3238 | Val Loss: 1.2926
+  Train Acc: 78.86% | Val Acc: 79.94%
+  Train L1: 84.94% | Train L2: 78.32% | Train L3: 73.32%
+  Val L1:   83.91% | Val L2:   80.26% | Val L3:   75.66%
+  [Patience: 6/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Plots saved to 'training_plots' folder for epoch 400
+   New Best Model saved! (Loss: 1.2926)
+ Checkpoint auto-saved at epoch 400 
+Epoch [401/10000] Train Loss: 1.3236 | Val Loss: 1.2974
+  Train Acc: 78.86% | Val Acc: 80.02%
+  Train L1: 84.92% | Train L2: 78.31% | Train L3: 73.34%
+  Val L1:   84.06% | Val L2:   80.35% | Val L3:   75.67%
+  [Patience: 0/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [402/10000] Train Loss: 1.3243 | Val Loss: 1.3065
+  Train Acc: 78.83% | Val Acc: 80.06%
+  Train L1: 84.83% | Train L2: 78.28% | Train L3: 73.38%
+  Val L1:   84.55% | Val L2:   80.10% | Val L3:   75.53%
+  [Patience: 1/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [403/10000] Train Loss: 1.3231 | Val Loss: 1.2948
+  Train Acc: 78.90% | Val Acc: 79.87%
+  Train L1: 84.97% | Train L2: 78.37% | Train L3: 73.36%
+  Val L1:   83.60% | Val L2:   80.33% | Val L3:   75.69%
+  [Patience: 2/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [404/10000] Train Loss: 1.3230 | Val Loss: 1.2957
+  Train Acc: 78.90% | Val Acc: 80.33%
+  Train L1: 84.99% | Train L2: 78.35% | Train L3: 73.35%
+  Val L1:   84.83% | Val L2:   80.32% | Val L3:   75.85%
+  [Patience: 3/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [405/10000] Train Loss: 1.3224 | Val Loss: 1.2964
+  Train Acc: 78.88% | Val Acc: 80.44%
+  Train L1: 84.89% | Train L2: 78.37% | Train L3: 73.38%
+  Val L1:   85.21% | Val L2:   80.32% | Val L3:   75.78%
+  [Patience: 4/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [406/10000] Train Loss: 1.3222 | Val Loss: 1.2932
+  Train Acc: 78.90% | Val Acc: 80.11%
+  Train L1: 84.91% | Train L2: 78.38% | Train L3: 73.41%
+  Val L1:   84.06% | Val L2:   80.47% | Val L3:   75.79%
+  [Patience: 5/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [407/10000] Train Loss: 1.3218 | Val Loss: 1.2897
+  Train Acc: 78.89% | Val Acc: 79.86%
+  Train L1: 84.87% | Train L2: 78.37% | Train L3: 73.45%
+  Val L1:   83.29% | Val L2:   80.42% | Val L3:   75.86%
+  [Patience: 6/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.2897)
+Epoch [408/10000] Train Loss: 1.3226 | Val Loss: 1.2991
+  Train Acc: 78.90% | Val Acc: 80.00%
+  Train L1: 84.89% | Train L2: 78.37% | Train L3: 73.43%
+  Val L1:   83.89% | Val L2:   80.36% | Val L3:   75.77%
+  [Patience: 0/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [409/10000] Train Loss: 1.3229 | Val Loss: 1.2915
+  Train Acc: 78.88% | Val Acc: 79.32%
+  Train L1: 84.84% | Train L2: 78.38% | Train L3: 73.42%
+  Val L1:   82.04% | Val L2:   80.10% | Val L3:   75.81%
+  [Patience: 1/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [410/10000] Train Loss: 1.3206 | Val Loss: 1.2919
+  Train Acc: 78.93% | Val Acc: 80.07%
+  Train L1: 84.94% | Train L2: 78.39% | Train L3: 73.45%
+  Val L1:   84.02% | Val L2:   80.17% | Val L3:   76.02%
+  [Patience: 2/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [411/10000] Train Loss: 1.3215 | Val Loss: 1.2980
+  Train Acc: 78.93% | Val Acc: 80.24%
+  Train L1: 84.88% | Train L2: 78.43% | Train L3: 73.48%
+  Val L1:   84.67% | Val L2:   80.38% | Val L3:   75.67%
+  [Patience: 3/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [412/10000] Train Loss: 1.3216 | Val Loss: 1.2899
+  Train Acc: 78.89% | Val Acc: 79.87%
+  Train L1: 84.80% | Train L2: 78.42% | Train L3: 73.45%
+  Val L1:   83.35% | Val L2:   80.46% | Val L3:   75.81%
+  [Patience: 4/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [413/10000] Train Loss: 1.3204 | Val Loss: 1.2876
+  Train Acc: 78.93% | Val Acc: 79.77%
+  Train L1: 84.92% | Train L2: 78.40% | Train L3: 73.46%
+  Val L1:   82.92% | Val L2:   80.35% | Val L3:   76.05%
+  [Patience: 5/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.2876)
+Epoch [414/10000] Train Loss: 1.3183 | Val Loss: 1.2979
+  Train Acc: 78.97% | Val Acc: 80.15%
+  Train L1: 84.97% | Train L2: 78.46% | Train L3: 73.47%
+  Val L1:   84.30% | Val L2:   80.52% | Val L3:   75.64%
+  [Patience: 0/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [415/10000] Train Loss: 1.3198 | Val Loss: 1.2920
+  Train Acc: 78.94% | Val Acc: 79.87%
+  Train L1: 84.86% | Train L2: 78.48% | Train L3: 73.48%
+  Val L1:   83.38% | Val L2:   80.39% | Val L3:   75.83%
+  [Patience: 1/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [416/10000] Train Loss: 1.3198 | Val Loss: 1.3037
+  Train Acc: 78.94% | Val Acc: 80.08%
+  Train L1: 84.90% | Train L2: 78.42% | Train L3: 73.50%
+  Val L1:   84.31% | Val L2:   80.41% | Val L3:   75.51%
+  [Patience: 2/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [417/10000] Train Loss: 1.3203 | Val Loss: 1.2957
+  Train Acc: 78.96% | Val Acc: 80.36%
+  Train L1: 84.93% | Train L2: 78.44% | Train L3: 73.50%
+  Val L1:   84.68% | Val L2:   80.46% | Val L3:   75.94%
+  [Patience: 3/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [418/10000] Train Loss: 1.3183 | Val Loss: 1.2957
+  Train Acc: 78.99% | Val Acc: 80.37%
+  Train L1: 84.91% | Train L2: 78.54% | Train L3: 73.54%
+  Val L1:   84.80% | Val L2:   80.44% | Val L3:   75.86%
+  [Patience: 4/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [419/10000] Train Loss: 1.3188 | Val Loss: 1.2892
+  Train Acc: 78.97% | Val Acc: 80.71%
+  Train L1: 84.97% | Train L2: 78.44% | Train L3: 73.51%
+  Val L1:   85.80% | Val L2:   80.47% | Val L3:   75.88%
+  [Patience: 5/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [420/10000] Train Loss: 1.3165 | Val Loss: 1.2898
+  Train Acc: 79.00% | Val Acc: 80.29%
+  Train L1: 84.94% | Train L2: 78.50% | Train L3: 73.54%
+  Val L1:   84.41% | Val L2:   80.38% | Val L3:   76.07%
+  [Patience: 6/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [421/10000] Train Loss: 1.3174 | Val Loss: 1.2943
+  Train Acc: 79.01% | Val Acc: 80.27%
+  Train L1: 84.95% | Train L2: 78.53% | Train L3: 73.56%
+  Val L1:   84.34% | Val L2:   80.60% | Val L3:   75.86%
+  [Patience: 7/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [422/10000] Train Loss: 1.3177 | Val Loss: 1.2949
+  Train Acc: 78.99% | Val Acc: 80.35%
+  Train L1: 84.88% | Train L2: 78.53% | Train L3: 73.55%
+  Val L1:   84.79% | Val L2:   80.36% | Val L3:   75.89%
+  [Patience: 8/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+Epoch [423/10000] Train Loss: 1.3170 | Val Loss: 1.2943
+  Train Acc: 78.99% | Val Acc: 79.90%
+  Train L1: 84.89% | Train L2: 78.49% | Train L3: 73.58%
+  Val L1:   83.36% | Val L2:   80.39% | Val L3:   75.94%
+  [Patience: 9/10 | Train Shuffles: 0/3 | Val Shuffles: 0]
+
+>>> Patience reached (10). Reloading best model from checkpoint_best_eth_cnn.pth...
+    Restored best_loss to: 1.2876
+>>> Refreshing Training Data... (change #1/3)
+Epoch [424/10000] Train Loss: 1.3197 | Val Loss: 1.3084
+  Train Acc: 78.92% | Val Acc: 80.23%
+  Train L1: 84.88% | Train L2: 78.42% | Train L3: 73.45%
+  Val L1:   84.70% | Val L2:   80.41% | Val L3:   75.59%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [425/10000] Train Loss: 1.3197 | Val Loss: 1.2878
+  Train Acc: 78.93% | Val Acc: 80.00%
+  Train L1: 84.89% | Train L2: 78.44% | Train L3: 73.45%
+  Val L1:   83.52% | Val L2:   80.36% | Val L3:   76.12%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [426/10000] Train Loss: 1.3196 | Val Loss: 1.2886
+  Train Acc: 78.93% | Val Acc: 80.22%
+  Train L1: 84.82% | Train L2: 78.47% | Train L3: 73.49%
+  Val L1:   84.10% | Val L2:   80.64% | Val L3:   75.92%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [427/10000] Train Loss: 1.3195 | Val Loss: 1.2979
+  Train Acc: 78.97% | Val Acc: 80.26%
+  Train L1: 84.98% | Train L2: 78.46% | Train L3: 73.48%
+  Val L1:   84.61% | Val L2:   80.42% | Val L3:   75.76%
+  [Patience: 3/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [428/10000] Train Loss: 1.3186 | Val Loss: 1.2957
+  Train Acc: 78.94% | Val Acc: 80.40%
+  Train L1: 84.82% | Train L2: 78.49% | Train L3: 73.52%
+  Val L1:   84.82% | Val L2:   80.62% | Val L3:   75.77%
+  [Patience: 4/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [429/10000] Train Loss: 1.3184 | Val Loss: 1.2867
+  Train Acc: 78.96% | Val Acc: 79.61%
+  Train L1: 84.87% | Train L2: 78.48% | Train L3: 73.54%
+  Val L1:   82.32% | Val L2:   80.56% | Val L3:   75.96%
+  [Patience: 5/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.2867)
+Epoch [430/10000] Train Loss: 1.3175 | Val Loss: 1.2835
+  Train Acc: 78.97% | Val Acc: 80.01%
+  Train L1: 84.85% | Train L2: 78.51% | Train L3: 73.54%
+  Val L1:   83.54% | Val L2:   80.62% | Val L3:   75.88%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+   New Best Model saved! (Loss: 1.2835)
+Epoch [431/10000] Train Loss: 1.3170 | Val Loss: 1.2903
+  Train Acc: 78.99% | Val Acc: 80.33%
+  Train L1: 84.83% | Train L2: 78.56% | Train L3: 73.59%
+  Val L1:   84.65% | Val L2:   80.49% | Val L3:   75.87%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [432/10000] Train Loss: 1.3169 | Val Loss: 1.2896
+  Train Acc: 78.98% | Val Acc: 80.33%
+  Train L1: 84.84% | Train L2: 78.52% | Train L3: 73.59%
+  Val L1:   84.52% | Val L2:   80.46% | Val L3:   76.01%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [433/10000] Train Loss: 1.3169 | Val Loss: 1.2933
+  Train Acc: 78.97% | Val Acc: 79.94%
+  Train L1: 84.79% | Train L2: 78.54% | Train L3: 73.57%
+  Val L1:   83.57% | Val L2:   80.39% | Val L3:   75.88%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [434/10000] Train Loss: 1.3173 | Val Loss: 1.2975
+  Train Acc: 78.95% | Val Acc: 80.38%
+  Train L1: 84.77% | Train L2: 78.55% | Train L3: 73.54%
+  Val L1:   84.62% | Val L2:   80.70% | Val L3:   75.83%
+  [Patience: 3/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [435/10000] Train Loss: 1.3171 | Val Loss: 1.2844
+  Train Acc: 78.97% | Val Acc: 79.99%
+  Train L1: 84.82% | Train L2: 78.54% | Train L3: 73.55%
+  Val L1:   83.53% | Val L2:   80.50% | Val L3:   75.95%
+  [Patience: 4/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [436/10000] Train Loss: 1.3152 | Val Loss: 1.2955
+  Train Acc: 79.02% | Val Acc: 80.16%
+  Train L1: 84.88% | Train L2: 78.60% | Train L3: 73.58%
+  Val L1:   83.96% | Val L2:   80.52% | Val L3:   76.01%
+  [Patience: 5/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [437/10000] Train Loss: 1.3173 | Val Loss: 1.2876
+  Train Acc: 78.99% | Val Acc: 79.93%
+  Train L1: 84.79% | Train L2: 78.59% | Train L3: 73.59%
+  Val L1:   82.94% | Val L2:   80.57% | Val L3:   76.29%
+  [Patience: 6/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [438/10000] Train Loss: 1.3152 | Val Loss: 1.2880
+  Train Acc: 79.01% | Val Acc: 80.23%
+  Train L1: 84.86% | Train L2: 78.57% | Train L3: 73.60%
+  Val L1:   83.95% | Val L2:   80.72% | Val L3:   76.01%
+  [Patience: 7/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [439/10000] Train Loss: 1.3140 | Val Loss: 1.2881
+  Train Acc: 79.08% | Val Acc: 79.79%
+  Train L1: 84.99% | Train L2: 78.61% | Train L3: 73.66%
+  Val L1:   82.70% | Val L2:   80.58% | Val L3:   76.10%
+  [Patience: 8/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+Epoch [440/10000] Train Loss: 1.3161 | Val Loss: 1.2876
+  Train Acc: 79.06% | Val Acc: 80.25%
+  Train L1: 85.03% | Train L2: 78.56% | Train L3: 73.60%
+  Val L1:   84.37% | Val L2:   80.48% | Val L3:   75.89%
+  [Patience: 9/10 | Train Shuffles: 1/3 | Val Shuffles: 0]
+
+>>> Patience reached (10). Reloading best model from checkpoint_best_eth_cnn.pth...
+    Restored best_loss to: 1.2835
+>>> Refreshing Training Data... (change #2/3)
+
+>>> 3 training shuffles exhausted. Refreshing VALIDATION dataset... (shuffle #1)
+Epoch [441/10000] Train Loss: 1.3162 | Val Loss: 1.2858
+  Train Acc: 79.00% | Val Acc: 80.11%
+  Train L1: 84.95% | Train L2: 78.52% | Train L3: 73.54%
+  Val L1:   83.99% | Val L2:   80.39% | Val L3:   75.95%
+  [Patience: 0/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [442/10000] Train Loss: 1.3182 | Val Loss: 1.2957
+  Train Acc: 78.99% | Val Acc: 80.63%
+  Train L1: 84.86% | Train L2: 78.55% | Train L3: 73.55%
+  Val L1:   85.29% | Val L2:   80.61% | Val L3:   76.00%
+  [Patience: 1/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [443/10000] Train Loss: 1.3166 | Val Loss: 1.2961
+  Train Acc: 78.98% | Val Acc: 80.20%
+  Train L1: 84.84% | Train L2: 78.52% | Train L3: 73.57%
+  Val L1:   84.18% | Val L2:   80.54% | Val L3:   75.89%
+  [Patience: 2/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [444/10000] Train Loss: 1.3172 | Val Loss: 1.2988
+  Train Acc: 78.98% | Val Acc: 80.24%
+  Train L1: 84.86% | Train L2: 78.48% | Train L3: 73.59%
+  Val L1:   84.61% | Val L2:   80.35% | Val L3:   75.75%
+  [Patience: 3/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [445/10000] Train Loss: 1.3168 | Val Loss: 1.2963
+  Train Acc: 78.98% | Val Acc: 80.52%
+  Train L1: 84.84% | Train L2: 78.53% | Train L3: 73.56%
+  Val L1:   85.03% | Val L2:   80.69% | Val L3:   75.83%
+  [Patience: 4/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [446/10000] Train Loss: 1.3152 | Val Loss: 1.2911
+  Train Acc: 79.04% | Val Acc: 80.30%
+  Train L1: 85.02% | Train L2: 78.52% | Train L3: 73.58%
+  Val L1:   84.34% | Val L2:   80.51% | Val L3:   76.05%
+  [Patience: 5/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [447/10000] Train Loss: 1.3169 | Val Loss: 1.2963
+  Train Acc: 79.00% | Val Acc: 79.98%
+  Train L1: 84.90% | Train L2: 78.53% | Train L3: 73.57%
+  Val L1:   83.67% | Val L2:   80.51% | Val L3:   75.77%
+  [Patience: 6/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [448/10000] Train Loss: 1.3151 | Val Loss: 1.2872
+  Train Acc: 79.03% | Val Acc: 80.38%
+  Train L1: 84.89% | Train L2: 78.59% | Train L3: 73.61%
+  Val L1:   84.47% | Val L2:   80.51% | Val L3:   76.16%
+  [Patience: 7/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [449/10000] Train Loss: 1.3149 | Val Loss: 1.2937
+  Train Acc: 79.00% | Val Acc: 80.04%
+  Train L1: 84.81% | Train L2: 78.58% | Train L3: 73.63%
+  Val L1:   83.53% | Val L2:   80.65% | Val L3:   75.94%
+  [Patience: 8/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+Epoch [450/10000] Train Loss: 1.3147 | Val Loss: 1.2942
+  Train Acc: 79.01% | Val Acc: 80.39%
+  Train L1: 84.78% | Train L2: 78.60% | Train L3: 73.64%
+  Val L1:   84.50% | Val L2:   80.67% | Val L3:   76.01%
+  [Patience: 9/10 | Train Shuffles: 0/3 | Val Shuffles: 1]
+ Checkpoint auto-saved at epoch 450 
+
+>>> Patience reached (10). Reloading best model from checkpoint_best_eth_cnn.pth...
+    Restored best_loss to: 1.2835
+>>> Refreshing Training Data... (change #1/3)
+Epoch [451/10000] Train Loss: 1.3184 | Val Loss: 1.2946
+  Train Acc: 79.00% | Val Acc: 80.02%
+  Train L1: 84.99% | Train L2: 78.47% | Train L3: 73.56%
+  Val L1:   83.64% | Val L2:   80.32% | Val L3:   76.09%
+  [Patience: 0/10 | Train Shuffles: 1/3 | Val Shuffles: 1]
+Epoch [452/10000] Train Loss: 1.3169 | Val Loss: 1.2953
+  Train Acc: 79.02% | Val Acc: 80.01%
+  Train L1: 84.98% | Train L2: 78.50% | Train L3: 73.57%
+  Val L1:   83.54% | Val L2:   80.76% | Val L3:   75.72%
+  [Patience: 1/10 | Train Shuffles: 1/3 | Val Shuffles: 1]
+Epoch [453/10000] Train Loss: 1.3175 | Val Loss: 1.2921
+  Train Acc: 78.97% | Val Acc: 79.97%
+  Train L1: 84.84% | Train L2: 78.49% | Train L3: 73.59%
+  Val L1:   83.46% | Val L2:   80.63% | Val L3:   75.81%
+  [Patience: 2/10 | Train Shuffles: 1/3 | Val Shuffles: 1]
+Epoch [454/10000] Train Loss: 1.3170 | Val Loss: 1.2923
+  Train Acc: 78.97% | Val Acc: 79.75%
+  Train L1: 84.79% | Train L2: 78.55% | Train L3: 73.58%
+  Val L1:   82.87% | Val L2:   80.43% | Val L3:   75.94%
+  [Patience: 3/10 | Train Shuffles: 1/3 | Val Shuffles: 1]
+Epoch [455/10000] Train Loss: 1.3163 | Val Loss: 1.2908
+  Train Acc: 78.98% | Val Acc: 79.96%
+  Train L1: 84.78% | Train L2: 78.57% | Train L3: 73.58%
+  Val L1:   83.43% | Val L2:   80.71% | Val L3:   75.75%
+  [Patience: 4/10 | Train Shuffles: 1/3 | Val Shuffles: 1]
+Epoch [456/10000] Train Loss: 1.3156 | Val Loss: 1.2859
+  Train Acc: 78.98% | Val Acc: 79.40%
+  Train L1: 84.75% | Train L2: 78.58% | Train L3: 73.62%
+  Val L1:   81.72% | Val L2:   80.37% | Val L3:   76.12%
+  [Patience: 5/10 | Train Shuffles: 1/3 | Val Shuffles: 1]
+Epoch [457/10000] Train Loss: 1.3160 | Val Loss: 1.2915
+  Train Acc: 78.97% | Val Acc: 80.18%
+  Train L1: 84.82% | Train L2: 78.53% | Train L3: 73.57%
+  Val L1:   84.01% | Val L2:   80.71% | Val L3:   75.82%
+  [Patience: 6/10 | Train Shuffles: 1/3 | Val Shuffles: 1]
+Epoch [458/10000] Train Loss: 1.3152 | Val Loss: 1.2902
+  Train Acc: 79.01% | Val Acc: 79.89%
+  Train L1: 84.92% | Train L2: 78.49% | Train L3: 73.63%
+  Val L1:   83.12% | Val L2:   80.47% | Val L3:   76.09%
+  [Patience: 7/10 | Train Shuffles: 1/3 | Val Shuffles: 1]
+Epoch [459/10000] Train Loss: 1.3162 | Val Loss: 1.2927
+  Train Acc: 78.98% | Val Acc: 80.12%
+  Train L1: 84.74% | Train L2: 78.57% | Train L3: 73.63%
+  Val L1:   84.01% | Val L2:   80.57% | Val L3:   75.80%
+  [Patience: 8/10 | Train Shuffles: 1/3 | Val Shuffles: 1]
+Epoch [460/10000] Train Loss: 1.3143 | Val Loss: 1.2842
+  Train Acc: 79.03% | Val Acc: 80.07%
+  Train L1: 84.86% | Train L2: 78.54% | Train L3: 73.68%
+  Val L1:   83.53% | Val L2:   80.58% | Val L3:   76.10%
+  [Patience: 9/10 | Train Shuffles: 1/3 | Val Shuffles: 1]
+
+>>> Patience reached (10). Reloading best model from checkpoint_best_eth_cnn.pth...
+    Restored best_loss to: 1.2835
+>>> Refreshing Training Data... (change #2/3)
+
+============================================================
+TERMINATION: Validation dataset shuffled 2 times without sufficient improvement.
+Best overall validation loss achieved: 1.2835
+============================================================
+
+======================================================================
+Training Complete.
+Best validation loss achieved: 1.2835
+Best model saved as: best_model_ETH_CNN.pth
+======================================================================
+Plots saved to 'training_plots' folder for epoch 461
