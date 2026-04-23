@@ -272,8 +272,8 @@ Renders CU partition boundaries on top of decoded frames using OpenCV, enabling 
 
 ```bash
 # 1. Clone the repository
-git clone <repo-url>
-cd <repo-name>
+git clone https://github.com/Krishna737Sharma/Deep-Learning-for-Fast-CTU-Partitioning-in-HEVC.git
+cd Deep-Learning-for-Fast-CTU-Partitioning-in-HEVC
 
 # 2. Download a dataset (example: 1080p training data)
 #    https://www.kaggle.com/datasets/krishnasharma737/cph-2k-720p-1080p-resolution-datasets
@@ -297,9 +297,3 @@ python RD_report1.py
 ## Citation
 
 If you use this repository or the associated datasets in your research, please cite appropriately and link back to the Kaggle dataset pages listed in the [Datasets](#datasets) section.
-
----
-
-## License
-
-This repository is released for academic and research use. Please refer to the individual model architecture licences (EfficientFormer, EfficientViT, LeViT, MobileFormer, FasterViT) before any commercial deployment.
