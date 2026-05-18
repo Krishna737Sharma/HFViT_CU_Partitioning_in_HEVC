@@ -84,56 +84,128 @@ class EfficientResBlock(nn.Module):
 
 
 class StreamlinedHAT(nn.Module):
-    # num_heads=2 — MUST match training
-    def __init__(self, dim, num_heads=2, window_size=2, mlp_ratio=2.0):
+    def __init__(self, dim, num_heads=2
+                 , window_size=2, mlp_ratio=2.0):
         super().__init__()
         self.dim         = dim
         self.num_heads   = num_heads
         self.window_size = window_size
         self.scale       = (dim // num_heads) ** -0.5
 
-        self.qkv  = nn.Linear(dim, dim * 3, bias=False)
-        self.proj = nn.Linear(dim, dim,     bias=False)
-
-        hidden = int(dim * mlp_ratio)
+        # ── Pre-Norm layers ──────────────────────────────────────────────────
+        self.norm1 = nn.LayerNorm(dim)
+        self.qkv   = nn.Linear(dim, dim * 3, bias=False)
+        self.proj  = nn.Linear(dim, dim,     bias=False)
         self.norm2 = nn.LayerNorm(dim)
-        self.mlp = nn.Sequential(
+        hidden     = int(dim * mlp_ratio)
+        self.mlp   = nn.Sequential(
             nn.Linear(dim, hidden),
             nn.GELU(),
             nn.Linear(hidden, dim),
         )
-        self.pos_scale = nn.Parameter(torch.ones(num_heads) * 0.5)
+
+        # ── Positional encoding ──────────────────────────────────────────────
+        seq_len = window_size ** 2 + 1
+        self.rel_pos_bias = nn.Parameter(
+            torch.zeros(num_heads, seq_len, seq_len)
+        )
+        trunc_normal_(self.rel_pos_bias, std=0.02)
+        self.register_buffer(
+            'window_pos_emb',
+            self._build_sinusoidal(window_size, dim)
+        )
+
+    @staticmethod
+    def _build_sinusoidal(window_size, dim):
+        coords = []
+        for row in range(window_size):
+            for col in range(window_size):
+                r = (row / max(window_size - 1, 1)) * 2 - 1
+                c = (col / max(window_size - 1, 1)) * 2 - 1
+                coords.append([r, c])
+        coords = torch.tensor(coords, dtype=torch.float32)
+
+        half = dim // 2
+        freq = torch.pow(
+            10000.0,
+            -2.0 * torch.arange(half, dtype=torch.float32) / dim
+        )
+        row_enc = torch.sin(coords[:, 0:1] * freq)
+        col_enc = torch.cos(coords[:, 1:2] * freq)
+        pos_emb = torch.cat([row_enc, col_enc], dim=-1)
+        return pos_emb.unsqueeze(0)                 # [1, ws^2, dim]
+
+    @staticmethod
+    def _window_partition(x, window_size):
+        """
+        x   : [B, H, W, C]
+        out : [B * (H//ws) * (W//ws), ws*ws, C]
+        """
+        B, H, W, C = x.shape
+        ws = window_size
+        x = x.reshape(B, H // ws, ws, W // ws, ws, C)
+        x = x.permute(0, 1, 3, 2, 4, 5).contiguous()
+        return x.reshape(-1, ws * ws, C)
+
+    @staticmethod
+    def _window_reverse(windows, window_size, H, W, B):
+        """
+        windows : [B * num_windows, ws*ws, C]
+        out     : [B, H, W, C]
+        """
+        ws = window_size
+        C  = windows.shape[-1]
+        x  = windows.reshape(B, H // ws, W // ws, ws, ws, C)
+        x  = x.permute(0, 1, 3, 2, 4, 5).contiguous()
+        return x.reshape(B, H, W, C)
 
     def forward(self, x, ct):
         B, C, H, W = x.shape
-        x_win  = x.permute(0, 2, 3, 1).reshape(-1, self.window_size ** 2, C)
+
+        # ── Correct window partitioning ──────────────────────────────────────
+        x_nhwc = x.permute(0, 2, 3, 1)                    # [B, H, W, C]
+        x_win  = self._window_partition(x_nhwc, self.window_size)
+        # x_win : [B*nW, ws^2, C]
+
+        # ── Absolute position embedding (window tokens only) ─────────────────
+        x_win = x_win + self.window_pos_emb                # broadcasts [1,ws^2,C]
+
+        # ── Carrier token (no absolute pos embed) ───────────────────────────
         ct     = ct.reshape(-1, 1, C)
-        tokens = torch.cat([x_win, ct], dim=1)
+        tokens = torch.cat([x_win, ct], dim=1)             # [B*nW, ws^2+1, C]
         shortcut = tokens
 
-        qkv = self.qkv(tokens).reshape(
-            tokens.size(0), tokens.size(1), 3, self.num_heads, C // self.num_heads
-        ).permute(2, 0, 3, 1, 4)
-
+        # ── Pre-Norm → QKV ───────────────────────────────────────────────────
+        qkv = (
+            self.qkv(self.norm1(tokens))
+            .reshape(tokens.size(0), tokens.size(1),
+                     3, self.num_heads, C // self.num_heads)
+            .permute(2, 0, 3, 1, 4)
+        )
         q, k, v = qkv[0], qkv[1], qkv[2]
+
         attn = (q @ k.transpose(-2, -1)) * self.scale
-        attn = attn * self.pos_scale.view(1, -1, 1, 1)
+        attn = attn + self.rel_pos_bias.unsqueeze(0)       # learnable bias
         attn = attn.softmax(dim=-1)
 
         out    = (attn @ v).transpose(1, 2).reshape(tokens.shape)
         tokens = shortcut + self.proj(out)
+
+        # ── Pre-Norm → MLP ───────────────────────────────────────────────────
         tokens = tokens + self.mlp(self.norm2(tokens))
 
-        x  = tokens[:, :-1, :].reshape(B, H, W, C).permute(0, 3, 1, 2)
-        ct = tokens[:, -1:, :]
-        return x.contiguous(), ct
+        # ── Correct window reverse ───────────────────────────────────────────
+        x_tokens = tokens[:, :-1, :]                       # [B*nW, ws^2, C]
+        x  = self._window_reverse(x_tokens, self.window_size, H, W, B)
+        x  = x.permute(0, 3, 1, 2).contiguous()           # [B, C, H, W]
+        ct = tokens[:, -1:, :]                             # [B*nW, 1, C]
+        return x, ct
 
 
 class CTInteractionLayer(nn.Module):
-    # num_heads=2 — MUST match training
     def __init__(self, dim, num_heads=2):
         super().__init__()
-        self.dim      = dim
+        self.dim       = dim
         self.num_heads = num_heads
         self.head_dim  = dim // num_heads
         self.scale     = self.head_dim ** -0.5
@@ -143,30 +215,32 @@ class CTInteractionLayer(nn.Module):
         self.ct_norm = nn.LayerNorm(dim)
 
     def forward(self, ct, batch_size):
-        num_windows_total    = ct.size(0)
+        num_windows_total     = ct.size(0)
         num_windows_per_image = num_windows_total // batch_size
         dim = ct.size(-1)
 
-        ct_grouped = ct.squeeze(1).reshape(batch_size, num_windows_per_image, dim)
-        shortcut   = ct_grouped
-        ct_normed  = self.ct_norm(ct_grouped)
+        ct_grouped = ct.squeeze(1).reshape(
+            batch_size, num_windows_per_image, dim
+        )
+        shortcut  = ct_grouped
+        ct_normed = self.ct_norm(ct_grouped)
 
         qkv = (
             self.ct_qkv(ct_normed)
-            .reshape(batch_size, num_windows_per_image, 3, self.num_heads, self.head_dim)
+            .reshape(batch_size, num_windows_per_image,
+                     3, self.num_heads, self.head_dim)
             .permute(2, 0, 3, 1, 4)
         )
         q, k, v = qkv[0], qkv[1], qkv[2]
-
         attn = (q @ k.transpose(-2, -1)) * self.scale
         attn = attn.softmax(dim=-1)
+        out  = (attn @ v).transpose(1, 2).reshape(
+            batch_size, num_windows_per_image, dim
+        )
 
-        out        = (attn @ v).transpose(1, 2).reshape(batch_size, num_windows_per_image, dim)
         ct_grouped = shortcut + self.ct_proj(out)
-        ct         = ct_grouped.reshape(num_windows_total, 1, dim)
-        return ct
-
-
+        return ct_grouped.reshape(num_windows_total, 1, dim)
+       
 class BalancedFasterViT_HEVC(nn.Module):
     def __init__(self):
         super().__init__()
