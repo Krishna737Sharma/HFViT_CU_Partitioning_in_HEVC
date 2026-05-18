@@ -212,7 +212,8 @@ class EfficientResBlock(nn.Module):
 
 
 class StreamlinedHAT(nn.Module):
-    def __init__(self, dim, num_heads=1, window_size=2, mlp_ratio=2.0):
+    def __init__(self, dim, num_heads=2
+    , window_size=2, mlp_ratio=2.0):
         super().__init__()
         self.dim         = dim
         self.num_heads   = num_heads
@@ -345,7 +346,7 @@ class StreamlinedHAT(nn.Module):
 
 
 class CTInteractionLayer(nn.Module):
-    def __init__(self, dim, num_heads=1):
+    def __init__(self, dim, num_heads=2):
         super().__init__()
         self.dim       = dim
         self.num_heads = num_heads
