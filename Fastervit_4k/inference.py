@@ -66,7 +66,8 @@ class EfficientResBlock(nn.Module):
 
 
 class StreamlinedHAT(nn.Module):
-    def __init__(self, dim, num_heads=1, window_size=2, mlp_ratio=2.0):
+    def __init__(self, dim, num_heads=2
+    , window_size=2, mlp_ratio=2.0):
         super().__init__()
         self.dim         = dim
         self.num_heads   = num_heads
@@ -199,7 +200,7 @@ class StreamlinedHAT(nn.Module):
 
 
 class CTInteractionLayer(nn.Module):
-    def __init__(self, dim, num_heads=1):
+    def __init__(self, dim, num_heads=2):
         super().__init__()
         self.dim       = dim
         self.num_heads = num_heads
@@ -244,9 +245,9 @@ class BalancedFasterViT_HEVC(nn.Module):
         self.stage2 = nn.Sequential(EfficientResBlock(dims[1]), ConvBNAct(dims[1], dims[2], 3, 2, 1))
         self.stage3 = nn.Sequential(EfficientResBlock(dims[2]), ConvBNAct(dims[2], dims[3], 3, 2, 1))
 
-        self.hat1           = StreamlinedHAT(dims[3], num_heads=1, window_size=2)
-        self.ct_interaction = CTInteractionLayer(dims[3], num_heads=1)
-        self.hat2           = StreamlinedHAT(dims[3], num_heads=1, window_size=2)
+        self.hat1           = StreamlinedHAT(dims[3], num_heads=2, window_size=2)
+        self.ct_interaction = CTInteractionLayer(dims[3], num_heads=2)
+        self.hat2           = StreamlinedHAT(dims[3], num_heads=2, window_size=2)
 
         self.gap = nn.AdaptiveAvgPool2d(1)
 
