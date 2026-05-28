@@ -123,7 +123,7 @@ python Model_Evaluation_ETH_CNN.py
 
 #### HEVC Integration
 
-Each resolution folder includes `video_to_cu_depth.py`. Copy this script into the `bin/` folder of your HEVC encoder build (https://github.com/Krishna737Sharma/Accelerated_HEVC/tree/HEVC_ViT/HM-16.5_Test_ViT) :
+Each resolution folder includes `video_to_cu_depth.py`. Copy this script into the `bin/` folder of your HEVC encoder build https://github.com/Krishna737Sharma/Accelerated_HEVC/tree/HEVC_ViT/HM-16.5_Test_ViT :
 
 ```bash
 cp ETH_CNN_720p/video_to_cu_depth.py <HEVC_encoder_root>/bin/
